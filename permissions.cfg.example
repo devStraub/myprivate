@@ -1,0 +1,21 @@
+# Copie para permissions.cfg e substitua os identificadores.
+add_ace group.admin command allow
+
+# GOD
+add_principal identifier.license:SUBSTITUA_PELO_LICENSE_ID rsgcore.god
+add_principal identifier.license:SUBSTITUA_PELO_LICENSE_ID rsgcore.admin
+add_principal identifier.license:SUBSTITUA_PELO_LICENSE_ID group.admin
+
+# Recursos
+add_ace resource.rsg-core command allow
+add_ace resource.ox_lib command.add_ace allow
+add_ace resource.ox_lib command.remove_ace allow
+add_ace resource.ox_lib command.add_principal allow
+add_ace resource.ox_lib command.remove_principal allow
+
+# Hierarquia RSG
+add_ace rsgcore.god command allow
+add_principal rsgcore.god group.admin
+add_principal rsgcore.god rsgcore.admin
+add_principal rsgcore.admin rsgcore.mod
+

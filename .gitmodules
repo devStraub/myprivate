@@ -1,0 +1,212 @@
+[submodule "resources/[standalone]/ox_lib"]
+	path = resources/[standalone]/ox_lib
+	url = https://github.com/Rexshack-RedM/ox_lib.git
+	branch = main
+[submodule "resources/[standalone]/progressbar"]
+	path = resources/[standalone]/progressbar
+	url = https://github.com/Rexshack-RedM/progressbar.git
+	branch = main
+[submodule "resources/[standalone]/PolyZone"]
+	path = resources/[standalone]/PolyZone
+	url = https://github.com/Rexshack-RedM/PolyZone.git
+	branch = main
+[submodule "resources/[standalone]/pma-voice"]
+	path = resources/[standalone]/pma-voice
+	url = https://github.com/AvarianKnight/pma-voice.git
+	branch = main
+[submodule "resources/[standalone]/weathersync"]
+	path = resources/[standalone]/weathersync
+	url = https://github.com/Rexshack-RedM/weathersync.git
+	branch = main
+[submodule "resources/[standalone]/xsound"]
+	path = resources/[standalone]/xsound
+	url = https://github.com/Xogy/xsound.git
+	branch = master
+[submodule "resources/[standalone]/interact-sound"]
+	path = resources/[standalone]/interact-sound
+	url = https://github.com/Rexshack-RedM/interact-sound.git
+	branch = main
+[submodule "resources/[standalone]/menu_base"]
+	path = resources/[standalone]/menu_base
+	url = https://github.com/Rexshack-RedM/menu_base.git
+	branch = main
+[submodule "resources/[standalone]/chat-redm"]
+	path = resources/[standalone]/chat-redm
+	url = https://github.com/Rexshack-RedM/chat-redm.git
+	branch = main
+[submodule "resources/[standalone]/rNotify"]
+	path = resources/[standalone]/rNotify
+	url = https://github.com/Rexshack-RedM/rNotify.git
+	branch = main
+[submodule "resources/[standalone]/ox_target"]
+	path = resources/[standalone]/ox_target
+	url = https://github.com/Rexshack-RedM/ox_target.git
+	branch = main
+[submodule "resources/[standalone]/ox_doorlock"]
+	path = resources/[standalone]/ox_doorlock
+	url = https://github.com/Rexshack-RedM/ox_doorlock.git
+	branch = main
+[submodule "resources/[standalone]/redm-female-fix"]
+	path = resources/[standalone]/redm-female-fix
+	url = https://github.com/Popisek/redm-female-fix.git
+	branch = main
+[submodule "resources/[framework]/rsg-core"]
+	path = resources/[framework]/rsg-core
+	url = https://github.com/Rexshack-RedM/rsg-core.git
+	branch = main
+[submodule "resources/[framework]/rsg-inventory"]
+	path = resources/[framework]/rsg-inventory
+	url = https://github.com/Rexshack-RedM/rsg-inventory.git
+	branch = main
+[submodule "resources/[framework]/rsg-multicharacter"]
+	path = resources/[framework]/rsg-multicharacter
+	url = https://github.com/Rexshack-RedM/rsg-multicharacter.git
+	branch = main
+[submodule "resources/[framework]/rsg-appearance"]
+	path = resources/[framework]/rsg-appearance
+	url = https://github.com/Rexshack-RedM/rsg-appearance.git
+	branch = main
+[submodule "resources/[framework]/rsg-wardrobe"]
+	path = resources/[framework]/rsg-wardrobe
+	url = https://github.com/Rexshack-RedM/rsg-wardrobe.git
+	branch = main
+[submodule "resources/[framework]/rsg-medic"]
+	path = resources/[framework]/rsg-medic
+	url = https://github.com/Rexshack-RedM/rsg-medic.git
+	branch = main
+[submodule "resources/[framework]/rsg-lawman"]
+	path = resources/[framework]/rsg-lawman
+	url = https://github.com/Rexshack-RedM/rsg-lawman.git
+	branch = main
+[submodule "resources/[framework]/rsg-prison"]
+	path = resources/[framework]/rsg-prison
+	url = https://github.com/Rexshack-RedM/rsg-prison.git
+	branch = main
+[submodule "resources/[framework]/rsg-doorlock"]
+	path = resources/[framework]/rsg-doorlock
+	url = https://github.com/Rexshack-RedM/rsg-doorlock.git
+	branch = main
+[submodule "resources/[framework]/rsg-banking"]
+	path = resources/[framework]/rsg-banking
+	url = https://github.com/Rexshack-RedM/rsg-banking.git
+	branch = main
+[submodule "resources/[framework]/rsg-spawn"]
+	path = resources/[framework]/rsg-spawn
+	url = https://github.com/Rexshack-RedM/rsg-spawn.git
+	branch = main
+[submodule "resources/[framework]/rsg-weapons"]
+	path = resources/[framework]/rsg-weapons
+	url = https://github.com/Rexshack-RedM/rsg-weapons.git
+	branch = main
+[submodule "resources/[framework]/rsg-ammo"]
+	path = resources/[framework]/rsg-ammo
+	url = https://github.com/Rexshack-RedM/rsg-ammo.git
+	branch = main
+[submodule "resources/[framework]/rsg-shops"]
+	path = resources/[framework]/rsg-shops
+	url = https://github.com/Rexshack-RedM/rsg-shops.git
+	branch = main
+[submodule "resources/[framework]/rsg-radialmenu"]
+	path = resources/[framework]/rsg-radialmenu
+	url = https://github.com/Rexshack-RedM/rsg-radialmenu.git
+	branch = main
+[submodule "resources/[framework]/rsg-essentials"]
+	path = resources/[framework]/rsg-essentials
+	url = https://github.com/Rexshack-RedM/rsg-essentials.git
+	branch = main
+[submodule "resources/[framework]/rsg-telegram"]
+	path = resources/[framework]/rsg-telegram
+	url = https://github.com/Rexshack-RedM/rsg-telegram.git
+	branch = main
+[submodule "resources/[framework]/rsg-horses"]
+	path = resources/[framework]/rsg-horses
+	url = https://github.com/Rexshack-RedM/rsg-horses.git
+	branch = main
+[submodule "resources/[framework]/rsg-hud"]
+	path = resources/[framework]/rsg-hud
+	url = https://github.com/Rexshack-RedM/rsg-hud.git
+	branch = main
+[submodule "resources/[framework]/rsg-menubase"]
+	path = resources/[framework]/rsg-menubase
+	url = https://github.com/Rexshack-RedM/rsg-menubase.git
+	branch = main
+[submodule "resources/[framework]/rsg-playerinfo"]
+	path = resources/[framework]/rsg-playerinfo
+	url = https://github.com/Rexshack-RedM/rsg-playerinfo.git
+	branch = main
+[submodule "resources/[framework]/rsg-bossmenu"]
+	path = resources/[framework]/rsg-bossmenu
+	url = https://github.com/Rexshack-RedM/rsg-bossmenu.git
+	branch = main
+[submodule "resources/[framework]/rsg-gangmenu"]
+	path = resources/[framework]/rsg-gangmenu
+	url = https://github.com/Rexshack-RedM/rsg-gangmenu.git
+	branch = main
+[submodule "resources/[framework]/rsg-npcs"]
+	path = resources/[framework]/rsg-npcs
+	url = https://github.com/Rexshack-RedM/rsg-npcs.git
+	branch = main
+[submodule "resources/[framework]/rsg-canteen"]
+	path = resources/[framework]/rsg-canteen
+	url = https://github.com/Rexshack-RedM/rsg-canteen.git
+	branch = main
+[submodule "resources/[framework]/rsg-barbers"]
+	path = resources/[framework]/rsg-barbers
+	url = https://github.com/Rexshack-RedM/rsg-barbers.git
+	branch = main
+[submodule "resources/[framework]/rsg-bathing"]
+	path = resources/[framework]/rsg-bathing
+	url = https://github.com/Rexshack-RedM/rsg-bathing.git
+	branch = main
+[submodule "resources/[framework]/rsg-lockpick"]
+	path = resources/[framework]/rsg-lockpick
+	url = https://github.com/Rexshack-RedM/rsg-lockpick.git
+	branch = main
+[submodule "resources/[framework]/rsg-adminmenu"]
+	path = resources/[framework]/rsg-adminmenu
+	url = https://github.com/Rexshack-RedM/rsg-adminmenu.git
+	branch = main
+[submodule "resources/[framework]/rsg-animations"]
+	path = resources/[framework]/rsg-animations
+	url = https://github.com/Rexshack-RedM/rsg-animations.git
+	branch = main
+[submodule "resources/[framework]/rsg-multijob"]
+	path = resources/[framework]/rsg-multijob
+	url = https://github.com/Rexshack-RedM/rsg-multijob.git
+	branch = main
+[submodule "resources/[framework]/rsg-consume"]
+	path = resources/[framework]/rsg-consume
+	url = https://github.com/Rexshack-RedM/rsg-consume.git
+	branch = main
+[submodule "resources/[framework]/rsg-fishing"]
+	path = resources/[framework]/rsg-fishing
+	url = https://github.com/Rexshack-RedM/rsg-fishing.git
+	branch = main
+[submodule "resources/[framework]/rsg-weaponcomp"]
+	path = resources/[framework]/rsg-weaponcomp
+	url = https://github.com/Rexshack-RedM/rsg-weaponcomp.git
+	branch = main
+[submodule "resources/[framework]/rsg-loading"]
+	path = resources/[framework]/rsg-loading
+	url = https://github.com/Rexshack-RedM/rsg-loading.git
+	branch = main
+[submodule "resources/[framework]/rsg-mdt"]
+	path = resources/[framework]/rsg-mdt
+	url = https://github.com/Rexshack-RedM/rsg-mdt.git
+	branch = main
+[submodule "resources/[mapmods]/redm-ipls"]
+	path = resources/[mapmods]/redm-ipls
+	url = https://github.com/Rexshack-RedM/redm-ipls.git
+	branch = main
+[submodule "resources/[mapmods]/redm-ymaps"]
+	path = resources/[mapmods]/redm-ymaps
+	url = https://github.com/Rexshack-RedM/redm-ymaps.git
+	branch = main
+[submodule "vendor/cfx-server-data"]
+	path = vendor/cfx-server-data
+	url = https://github.com/citizenfx/cfx-server-data.git
+	branch = master
+[submodule "vendor/oxmysql-source"]
+	path = vendor/oxmysql-source
+	url = https://github.com/CommunityOx/oxmysql.git
+	branch = main

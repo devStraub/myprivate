@@ -1,0 +1,18 @@
+# Segredos locais
+secrets.cfg
+permissions.cfg
+
+# Artefatos baixados/gerados pelo bootstrap
+artifacts/
+cache/
+logs/
+resources/[[]cfx-default[]]/
+resources/[[]standalone[]]/oxmysql/
+
+# Arquivos locais
+*.log
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
