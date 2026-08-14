@@ -1,0 +1,11 @@
+{
+  "target_pick": "Coletar planta",
+  "picking": "Coletando %s...",
+  "invalid_position": "Não é possível coletar esta planta.",
+  "plant_depleted": "Esta planta ainda está se recuperando.",
+  "already_picking": "Você já está coletando uma planta.",
+  "inventory_full": "Não há espaço suficiente no inventário.",
+  "received": "Você coletou %sx %s.",
+  "cancelled": "Coleta cancelada.",
+  "security_rejected": "A coleta não pôde ser validada pelo servidor."
+}

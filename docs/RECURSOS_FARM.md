@@ -4,8 +4,8 @@
 
 1. `fipas-mining` - concluido
 2. `fipas-lumberjack` - concluido
-3. `fipas-herbs` - proximo
-4. `fipas-hunting`
+3. `fipas-herbs` - concluido
+4. `fipas-hunting` - proximo
 
 ## fipas-mining
 
@@ -52,5 +52,28 @@ Adaptacao RSG inspirada no `VORPCORE/vorp_lumberjack`, preservando creditos e GP
 
 - JSON e estrutura validados.
 - `fipas-lumberjack` e `fipas-mining` iniciaram juntos sem erros de runtime.
+- MariaDB e autenticacao Cfx confirmados.
+- O fluxo visual dentro do cliente RedM ainda deve ser testado por um jogador.
+
+## fipas-herbs
+
+Adaptacao RSG inspirada no `VORPCORE/vorp_herbs`, preservando creditos e GPL-2.0.
+
+### Funcionalidades
+
+- 27 especies/modelos de plantas naturais reconhecidos pelo `ox_target`.
+- 29 ingredientes naturais normalizados para nomes de item em minusculas.
+- Recompensa, quantidade e cooldown especificos por especie.
+- Animacao de coleta e bloqueio de movimento durante a acao.
+- Modelo, distancia, duracao, sessao e capacidade validados no servidor.
+- Itens registrados dinamicamente sem alterar o `rsg-core`.
+- Locales `pt-br` e `en`.
+
+Os pomares fixos extensos da referencia VORP foram reservados para um futuro sistema de agricultura, evitando misturar cultivo com coleta silvestre.
+
+### Validacao
+
+- JSON e estrutura validados.
+- Ervas, lenhador e mineracao iniciaram juntos sem erros de runtime.
 - MariaDB e autenticacao Cfx confirmados.
 - O fluxo visual dentro do cliente RedM ainda deve ser testado por um jogador.

@@ -1,0 +1,11 @@
+{
+  "target_pick": "Pick plant",
+  "picking": "Picking %s...",
+  "invalid_position": "You cannot pick this plant.",
+  "plant_depleted": "This plant is still recovering.",
+  "already_picking": "You are already picking a plant.",
+  "inventory_full": "There is not enough inventory space.",
+  "received": "You collected %sx %s.",
+  "cancelled": "Picking cancelled.",
+  "security_rejected": "The server could not validate this gathering action."
+}
