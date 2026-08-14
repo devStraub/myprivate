@@ -1,0 +1,15 @@
+{
+  "target_chop": "Chop tree",
+  "chopping": "Chopping wood...",
+  "no_axe": "You need an axe.",
+  "invalid_position": "You cannot chop this tree.",
+  "town_blocked": "Tree chopping is not allowed inside town.",
+  "tree_depleted": "This tree was harvested recently.",
+  "already_chopping": "You are already chopping wood.",
+  "failed": "The strike did not yield materials.",
+  "inventory_full": "There is not enough inventory space.",
+  "received": "You collected %sx %s.",
+  "axe_broke": "Your axe broke.",
+  "cancelled": "Chopping cancelled.",
+  "security_rejected": "The server could not validate this gathering action."
+}

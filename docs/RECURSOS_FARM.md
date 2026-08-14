@@ -3,8 +3,8 @@
 ## Ordem de implantacao
 
 1. `fipas-mining` - concluido
-2. `fipas-lumberjack` - proximo
-3. `fipas-herbs`
+2. `fipas-lumberjack` - concluido
+3. `fipas-herbs` - proximo
 4. `fipas-hunting`
 
 ## fipas-mining
@@ -33,3 +33,24 @@ O balanceamento fica em `resources/[fipas]/fipas-mining/config.lua`.
 - FXServer iniciou o recurso sem erros de runtime.
 - MariaDB e autenticacao Cfx confirmados durante o teste.
 - Teste do fluxo visual dentro do cliente RedM ainda deve ser feito por um jogador.
+
+## fipas-lumberjack
+
+Adaptacao RSG inspirada no `VORPCORE/vorp_lumberjack`, preservando creditos e GPL-2.0.
+
+### Funcionalidades
+
+- 261 modelos de arvores reconhecidos pelo `ox_target`.
+- Machado obrigatorio, teste de habilidade, animacao e chance de quebra.
+- Cooldown sincronizado individualmente por arvore.
+- Madeira macia, madeira dura, seiva, fibras, polpa, latex e mel.
+- Materiais registrados dinamicamente sem alterar o `rsg-core`.
+- Modelo, distancia, ferramenta, duracao, sessao e capacidade validados no servidor.
+- Locales `pt-br` e `en`.
+
+### Validacao
+
+- JSON e estrutura validados.
+- `fipas-lumberjack` e `fipas-mining` iniciaram juntos sem erros de runtime.
+- MariaDB e autenticacao Cfx confirmados.
+- O fluxo visual dentro do cliente RedM ainda deve ser testado por um jogador.

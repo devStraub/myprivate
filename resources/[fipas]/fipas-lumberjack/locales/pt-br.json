@@ -1,0 +1,15 @@
+{
+  "target_chop": "Cortar árvore",
+  "chopping": "Cortando madeira...",
+  "no_axe": "Você precisa de um machado.",
+  "invalid_position": "Não é possível cortar esta árvore.",
+  "town_blocked": "O corte de árvores não é permitido dentro da cidade.",
+  "tree_depleted": "Esta árvore foi explorada recentemente.",
+  "already_chopping": "Você já está cortando madeira.",
+  "failed": "O golpe não foi suficiente para obter material.",
+  "inventory_full": "Não há espaço suficiente no inventário.",
+  "received": "Você coletou %sx %s.",
+  "axe_broke": "Seu machado quebrou.",
+  "cancelled": "Corte cancelado.",
+  "security_rejected": "A coleta não pôde ser validada pelo servidor."
+}
