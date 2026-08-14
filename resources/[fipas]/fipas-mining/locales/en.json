@@ -1,0 +1,15 @@
+{
+  "target_mine": "Mine rock",
+  "mining": "Extracting ore...",
+  "no_pickaxe": "You need a pickaxe.",
+  "invalid_position": "You cannot mine here.",
+  "town_blocked": "Mining is not allowed inside town.",
+  "rock_depleted": "This rock was mined recently.",
+  "already_mining": "You are already mining.",
+  "failed": "You failed to extract anything.",
+  "inventory_full": "There is not enough inventory space.",
+  "received": "You extracted %sx %s.",
+  "pickaxe_broke": "Your pickaxe broke.",
+  "cancelled": "Mining cancelled.",
+  "security_rejected": "The server could not validate this mining action."
+}

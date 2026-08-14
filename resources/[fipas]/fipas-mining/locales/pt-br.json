@@ -1,0 +1,15 @@
+{
+  "target_mine": "Minerar rocha",
+  "mining": "Extraindo minério...",
+  "no_pickaxe": "Você precisa de uma picareta.",
+  "invalid_position": "Não é possível minerar nesta posição.",
+  "town_blocked": "A mineração não é permitida dentro da cidade.",
+  "rock_depleted": "Esta rocha foi explorada recentemente.",
+  "already_mining": "Você já está minerando.",
+  "failed": "Você não conseguiu extrair nada desta vez.",
+  "inventory_full": "Não há espaço suficiente no inventário.",
+  "received": "Você extraiu %sx %s.",
+  "pickaxe_broke": "Sua picareta quebrou.",
+  "cancelled": "Mineração cancelada.",
+  "security_rejected": "A extração não pôde ser validada pelo servidor."
+}
