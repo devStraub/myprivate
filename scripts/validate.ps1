@@ -11,7 +11,7 @@ $RequiredResources = @(
     'resources/[standalone]/ox_lib',
     'resources/[framework]/rsg-core',
     'resources/[framework]/rsg-inventory',
-    'resources/[alegrete]/alegrete-core',
+    'resources/[fipas]/fipas-core',
     'resources/[cfx-default]/[managers]/mapmanager'
 )
 foreach ($Resource in $RequiredResources) {
@@ -31,4 +31,3 @@ if ($Errors.Count -gt 0) {
     exit 1
 }
 Write-Host "Validacao concluida: $($SubmoduleStatus.Count) submodulos e arquivos essenciais presentes." -ForegroundColor Green
-
