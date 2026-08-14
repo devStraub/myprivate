@@ -34,6 +34,7 @@
 	path = resources/[standalone]/chat-redm
 	url = https://github.com/Rexshack-RedM/chat-redm.git
 	branch = main
+	ignore = untracked
 [submodule "resources/[standalone]/rNotify"]
 	path = resources/[standalone]/rNotify
 	url = https://github.com/Rexshack-RedM/rNotify.git

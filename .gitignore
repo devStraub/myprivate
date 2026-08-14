@@ -11,6 +11,7 @@ resources/[[]standalone[]]/oxmysql/
 
 # Arquivos locais
 *.log
+.replxx_history
 .env
 .DS_Store
 Thumbs.db
