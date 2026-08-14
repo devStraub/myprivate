@@ -5,7 +5,7 @@
 1. `fipas-mining` - concluido
 2. `fipas-lumberjack` - concluido
 3. `fipas-herbs` - concluido
-4. `fipas-hunting` - proximo
+4. `fipas-hunting` - concluido
 
 ## fipas-mining
 
@@ -54,6 +54,30 @@ Adaptacao RSG inspirada no `VORPCORE/vorp_lumberjack`, preservando creditos e GP
 - `fipas-lumberjack` e `fipas-mining` iniciaram juntos sem erros de runtime.
 - MariaDB e autenticacao Cfx confirmados.
 - O fluxo visual dentro do cliente RedM ainda deve ser testado por um jogador.
+
+## fipas-hunting
+
+Adaptacao RSG inspirada no `VORPCORE/vorp_hunting`, preservando creditos e GPL-3.0.
+
+### Funcionalidades
+
+- 121 modelos de animais com recompensas de esfolamento/saque.
+- 82 configuracoes comerciais de carcasas e peles.
+- 10 acougues com NPC, blip e interacao por `ox_target`.
+- Precos e multiplicadores de qualidade de pele mantidos da referencia.
+- 159 produtos de caca registrados dinamicamente com nomes normalizados para RSG.
+- Validacao de entidade de rede, modelo, morte, distancia, duplicidade e proximidade do acougue.
+- Pagamento convertido para dinheiro `cash` do RSG.
+- Locales `pt-br` e `en`.
+
+Por seguranca, a primeira versao vende somente a carcaca ou pele efetivamente carregada pelo jogador/cavalo. A venda automatica em lote de todas as peles nos slots da sela foi desativada, pois a referencia nao fornece entidade de rede suficiente para uma validacao server-side confiavel.
+
+### Validacao
+
+- JSON, estrutura e tabelas Lua carregaram corretamente.
+- Os quatro ciclos de farm iniciaram juntos sem erros de runtime.
+- MariaDB e autenticacao Cfx confirmados.
+- Esfolamento, transporte e venda ainda devem ser testados visualmente dentro do cliente RedM.
 
 ## fipas-herbs
 

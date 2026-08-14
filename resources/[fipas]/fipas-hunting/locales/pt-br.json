@@ -1,0 +1,12 @@
+{
+  "target_sell": "Vender caça",
+  "not_holding": "Você não está carregando uma carcaça ou pele válida.",
+  "invalid_animal": "Este animal ou pele não é aceito pelo açougue.",
+  "too_far": "A operação não pôde ser validada nesta distância.",
+  "already_rewarded": "Este animal já foi processado.",
+  "inventory_full": "Não há espaço suficiente no inventário para os produtos da caça.",
+  "skin_received": "Você obteve: %s.",
+  "sold": "Venda concluída por $%.2f.",
+  "security_rejected": "A operação de caça não pôde ser validada pelo servidor.",
+  "butcher_blip": "Açougue"
+}

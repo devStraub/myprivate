@@ -1,0 +1,12 @@
+{
+  "target_sell": "Sell hunting goods",
+  "not_holding": "You are not carrying a valid carcass or pelt.",
+  "invalid_animal": "This animal or pelt is not accepted by the butcher.",
+  "too_far": "The operation could not be validated at this distance.",
+  "already_rewarded": "This animal was already processed.",
+  "inventory_full": "There is not enough inventory space for the hunting products.",
+  "skin_received": "You obtained: %s.",
+  "sold": "Sale completed for $%.2f.",
+  "security_rejected": "The hunting operation could not be validated by the server.",
+  "butcher_blip": "Butcher"
+}
