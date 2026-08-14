@@ -1,0 +1,10 @@
+{
+    "consume.unwell_description":  "Voce nao esta se sentindo bem...",
+    "consume.drunk_description":  "Voce comeca a se sentir tonto...",
+    "consume.recovered_title":  "Recuperado",
+    "consume.drunk_title":  "Embriagado",
+    "consume.unwell_title":  "Mal-estar",
+    "consume.recovered_description":  "Voce se sente lucido novamente.",
+    "consume.wakeup_title":  "Despertar dificil",
+    "consume.wakeup_description":  "Voce acorda com uma terrivel dor de cabeca..."
+}

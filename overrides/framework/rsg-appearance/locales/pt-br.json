@@ -1,0 +1,266 @@
+﻿{
+    "blips":  {
+                  "clothing_store":  "Loja de Roupas",
+                  "wardrobe":  "Guarda-Roupa"
+              },
+    "texts":  {
+                  "body":  "Corpo",
+                  "face":  "Rosto",
+                  "hair_beard":  "Cabelo e Barba",
+                  "hair_style":  "Estilo de Cabelo",
+                  "hair_color":  "Cor do Cabelo",
+                  "beard_style":  "Estilo de Barba",
+                  "beard_color":  "Cor da Barba",
+                  "makeup":  "Maquiagem",
+                  "appearance":  "AparÃªncia",
+                  "slim":  "Magro",
+                  "sporty":  "AtlÃ©tico",
+                  "medium":  "MÃ©dio",
+                  "fat":  "Gordo",
+                  "strong":  "Forte",
+                  "face_width":  "Largura do Rosto",
+                  "skin_tone":  "Tom de Pele",
+                  "eyes":  "Olhos",
+                  "eyelids":  "PÃ¡lpebras",
+                  "eyebrows":  "Sobrancelhas",
+                  "nose":  "Nariz",
+                  "mouth":  "Boca",
+                  "teeth":  "Dentes",
+                  "cheekbones":  "MaÃ§Ã£s do Rosto",
+                  "jaw":  "MandÃ­bula",
+                  "ears":  "Orelhas",
+                  "chin":  "Queixo",
+                  "defects":  "ImperfeiÃ§Ãµes",
+                  "hair":  "Cabelo",
+                  "beard":  "Barba",
+                  "type":  "Tipo",
+                  "visibility":  "Visibilidade",
+                  "color_palette":  "Paleta de Cores ",
+                  "color_firstrate":  "Cor PrimÃ¡ria",
+                  "eyebrow":  "Sobrancelhas",
+                  "nose_curvature":  "Curvatura do Nariz",
+                  "up_down":  "CIMA / BAIXO",
+                  "left_right":  "esquerda / direita",
+                  "upper_lip_height":  "Altura do LÃ¡bio Superior",
+                  "upper_lip_width":  "Largura do LÃ¡bio Superior",
+                  "upper_lip_depth":  "Profundidade do LÃ¡bio Superior",
+                  "lower_lip_height":  "Altura do LÃ¡bio Inferior",
+                  "lower_lip_width":  "Largura do LÃ¡bio Inferior",
+                  "lower_lip_depth":  "Profundidade do LÃ¡bio Inferior",
+                  "make_up":  "Maquiagem",
+                  "older":  "Idade",
+                  "scars":  "Tipo de Cicatrizes",
+                  "freckles":  "Tipo de Sardas",
+                  "moles":  "Sinais",
+                  "disadvantages":  "ImperfeiÃ§Ãµes",
+                  "spots":  "Manchas",
+                  "shadow":  "Sombra",
+                  "color_shadow":  "Cor da Sombra",
+                  "color_first_class":  "Cor Principal",
+                  "blushing_cheek":  "Bochecha Corada",
+                  "blush_id":  "Cor do Blush",
+                  "blush_c1":  "Cor PrimÃ¡ria do Blush",
+                  "lipstick":  "Tipo de Batom",
+                  "color_lipstick":  "Cor do Batom",
+                  "lipsticks_c1":  "Cor PrimÃ¡ria do Batom",
+                  "lipsticks_c2":  "Cor SecundÃ¡ria do Batom",
+                  "eyeliners":  "Delineadores",
+                  "eyeliners_id":  "Cor dos Delineadores",
+                  "eyeliners_c1":  "Cor Principal dos Delineadores",
+                  "save":  "Salvar",
+                  "options":  "OpÃ§Ãµes",
+                  "align":  "superior-esquerdo",
+                  "style":  "Estilo ",
+                  "color":  "Cor ",
+                  "size":  "Tamanho",
+                  "width":  "Largura ",
+                  "height":  "Altura",
+                  "depth":  "Profundidade",
+                  "waist":  "Cintura",
+                  "chest":  "Peito",
+                  "distance":  "DistÃ¢ncia",
+                  "angle":  "Ã‚ngulo",
+                  "clarity":  "Nitidez",
+                  "creator":  "CRIADOR DE PERSONAGEM",
+                  "first_menu":  {
+                                     "label_firstname":  "Nome",
+                                     "label_lastname":  "Sobrenome",
+                                     "desc":  "Como vocÃª quer ser chamado pelas pessoas?",
+                                     "none":  "Vazio",
+                                     "start":  "Comece Sua Jornada",
+                                     "empty":  "Preencha tudo primeiro",
+                                     "nationality":  "Nacionalidade",
+                                     "birthdate":  "Data de Nascimento"
+                                 }
+              },
+    "labels":  {
+                   "boot_accessories":  "AcessÃ³rios de Bota",
+                   "pants":  "CalÃ§as",
+                   "cloaks":  "Mantos",
+                   "hats":  "ChapÃ©us",
+                   "vests":  "Coletes",
+                   "chaps":  "Perneiras",
+                   "shirts_full":  "Camisas",
+                   "badges":  "Distintivos",
+                   "masks":  "MÃ¡scaras",
+                   "spats":  "Polainas",
+                   "neckwear":  "AcessÃ³rios de PescoÃ§o",
+                   "boots":  "Botas",
+                   "accessories":  "AcessÃ³rios",
+                   "jewelry_rings_right":  "AnÃ©is da MÃ£o Direita",
+                   "jewelry_rings_left":  "AnÃ©is da MÃ£o Esquerda",
+                   "jewelry_bracelets":  "Pulseiras",
+                   "gauntlets":  "Manoplas",
+                   "neckties":  "Gravatas",
+                   "holsters_knife":  "Coldres de Faca",
+                   "talisman_holster":  "TalismÃ£ do Coldre",
+                   "loadouts":  "Equipamentos",
+                   "suspenders":  "SuspensÃ³rios",
+                   "talisman_satchel":  "TalismÃ£ da Bolsa",
+                   "satchels":  "Bolsas",
+                   "gunbelts":  "Cintos de Arma",
+                   "belts":  "Cintos",
+                   "belt_buckles":  "Fivelas de Cinto",
+                   "holsters_left":  "Coldres Esquerdos",
+                   "holsters_right":  "Coldres Direitos",
+                   "talisman_wrist":  "TalismÃ£ de Pulso",
+                   "coats":  "Casacos",
+                   "coats_closed":  "Casacos Fechados",
+                   "ponchos":  "Ponchos",
+                   "eyewear":  "Ã“culos",
+                   "gloves":  "Luvas",
+                   "holsters_crossdraw":  "Coldres de Saque Cruzado",
+                   "skirts":  "Saias",
+                   "hair_accessories":  "AcessÃ³rios de Cabelo",
+                   "armor":  "Armadura",
+                   "ammunition_belts":  "Cintos de Munição",
+                   "gunbelt_ammunition":  "Munição de cinturão",
+                   "leg_attachments":  "Anexos de perna",
+                   "dresses":  "Vestidos",
+                   "save":  "Salvar Roupas",
+                   "clothes":  "Roupas",
+                   "options":  "opÃ§Ãµes",
+                   "color":  "Cor ",
+                   "choose":  "escolha suas roupas",
+                   "wear":  "Vestir Traje",
+                   "wear_desc":  "vestir-se",
+                   "delete":  "Excluir Traje",
+                   "delete_desc":  "excluir traje",
+                   "shop":  "Loja de Roupas",
+                   "total":  "PreÃ§o",
+                   "gunbelt_accs":  "Acessórios para cinturões"
+               },
+    "menu_elements":  {
+                          "head":  {
+                                       "label":  "CabeÃ§a"
+                                   },
+                          "torso":  {
+                                        "label":  "Torso"
+                                    },
+                          "legs":  {
+                                       "label":  "Pernas"
+                                   },
+                          "foot":  {
+                                       "label":  "PÃ©s"
+                                   },
+                          "hands":  {
+                                        "label":  "MÃ£os"
+                                    },
+                          "accessories":  {
+                                              "label":  "AcessÃ³rios"
+                                          },
+                          "misc_gear":  {
+                                            "label":  "Diversos. Engrenagem"
+                                        },
+                          "belts_holsters":  {
+                                                 "label":  "Cintos e coldres"
+                                             },
+                          "belts_satchels":  {
+                                                 "label":  "Cintos e mochilas"
+                                             },
+                          "shirts_vests":  {
+                                               "label":  "Camisas e coletes"
+                                           },
+                          "coats_outerwear":  {
+                                                  "label":  "Casacos e agasalhos"
+                                              }
+                      },
+    "prompts":  {
+                    "cloakroom_text":  "Abrir Provadores",
+                    "clothing_store_label":  "Loja de Roupas",
+                    "zoom_label":  "Aproximar/Afastar Zoom",
+                    "camera_up_label":  "CÃ¢mera Cima/Baixo",
+                    "camera_turn_label":  "Girar Esquerda/Direita"
+                },
+    "cloack_room_prompt_button":  "Provador",
+    "save_outfit_1":  "Salvar Traje",
+    "save_outfit_2_header":  "Salvar Traje",
+    "save_outfit_2_input_label":  "Nome do Traje",
+    "invalid_character_name":  {
+                                   "title":  "Erro",
+                                   "description":  "O nome deve comeÃ§ar com letra maiÃºscula e conter apenas letras."
+                               },
+    "missing_character_info":  {
+                                   "title":  "Erro",
+                                   "description":  "Ã‰ necessÃ¡rio preencher todas as informaÃ§Ãµes sobre vocÃª primeiro! (Nome, Sobrenome, Nacionalidade, Data de Nascimento)"
+                               },
+    "insufficient_funds":  {
+                               "title":  "Fundos Insuficientes",
+                               "description":  "VocÃª nÃ£o tem dinheiro suficiente"
+                           },
+    "creator":  {
+                    "appearance":  {
+                                       "label":  "AparÃªncia",
+                                       "desc":  "Escolha Sua AparÃªncia"
+                                   },
+                    "clothing":  {
+                                     "label":  "VestuÃ¡rio",
+                                     "desc":  "Escolha Suas Roupas"
+                                 },
+                    "firstname":  {
+                                      "desc":  "Escolha Seu Nome",
+                                      "input":  {
+                                                    "header":  "Registro",
+                                                    "label":  "Nome",
+                                                    "placeholder":  "Hank"
+                                                }
+                                  },
+                    "lastname":  {
+                                     "desc":  "Escolha Seu Sobrenome",
+                                     "input":  {
+                                                   "header":  "Registro",
+                                                   "label":  "Sobrenome",
+                                                   "placeholder":  "Jordânia"
+                                               }
+                                 },
+                    "nationality":  {
+                                        "desc":  "Escolha Sua Nacionalidade",
+                                        "input":  {
+                                                      "header":  "Registro",
+                                                      "label":  "Nacionalidade",
+                                                      "placeholder":  "Mexicano"
+                                                  }
+                                    },
+                    "birthdate":  {
+                                      "desc":  "Escolha Sua Data de Nascimento",
+                                      "input":  {
+                                                    "header":  "Registro",
+                                                    "label":  "Data de Nascimento"
+                                                }
+                                  },
+                    "male":  "Masculino",
+                    "female":  "Feminino",
+                    "confirm":  "Confirmar",
+                    "select_gender_1":  "Selecionar GÃªnero",
+                    "select_gender_2":  "Selecionar GÃªnero",
+                    "photo_tip":  "Tire uma captura de tela agora"
+                },
+    "clothing_menu":  {
+                          "category_desc":  "OpÃ§Ãµes de roupas para esta categoria",
+                          "confirm_purhcase":  "Confirmar compra"
+                      },
+    "camera_prompt_text":  "Cima/Baixo",
+    "rotate_prompt_text":  "Esquerda/Direita",
+    "zoom_prompt_text":  "Zoom",
+    "group_prompt_text":  "Criador RSGCore"
+}

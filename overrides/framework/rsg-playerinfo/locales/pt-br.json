@@ -1,0 +1,19 @@
+﻿{
+    "sv_view_stats":  "Ver estatísticas",
+    "cl_funds_in_armbank":  "Fundos no banco Armadillo",
+    "cl_serverid":  "ID do servidor",
+    "cl_citizenid":  "ID do cidadão",
+    "cl_funds_in_bloodmoney":  "Fundos em dinheiro de sangue",
+    "cl_funds_in_blkbank":  "Fundos no banco Blackwater",
+    "sv_outlawstatus_a":  "Cidadão cumpridor da lei",
+    "cl_funds_in_rhobank":  "Fundos no banco Rhodes",
+    "cl_job_grade":  "Grau do trabalho",
+    "cl_funds_in_valbank":  "Fundos no banco Valentine",
+    "cl_job":  "Trabalho",
+    "cl_outlawstatus":  "Status de fora da lei",
+    "cl_no_data":  "Sem dados",
+    "cl_funds_in_bank":  "Fundos no banco St.Denis",
+    "sv_outlawstatus_c":  "Foragido",
+    "sv_outlawstatus_b":  "Pequeno criminoso",
+    "cl_funds_in_cash":  "Fundos em dinheiro"
+}

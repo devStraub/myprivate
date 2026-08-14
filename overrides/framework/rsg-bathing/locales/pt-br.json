@@ -1,0 +1,8 @@
+﻿{
+    "prompt_bath":  "Usar a Banheira (%s$)",
+    "prompt_luxury_bath":  "ServiÃ§o de Luxo (%s$)",
+    "prompt_scrub":  "Esfoliar",
+    "prompt_leave":  "Sair",
+    "notify_not_enough_money":  "VocÃª nÃ£o tem dinheiro suficiente!",
+    "notify_occupied":  "Este quarto estÃ¡ ocupado no momento!"
+}
