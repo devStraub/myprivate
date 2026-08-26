@@ -4,7 +4,7 @@ title: Roteador para agentes
 type: agent-instructions
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-26
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -29,5 +29,7 @@ visibility: private
 9. Ao concluir trabalho ou estudo, avalie aprendizado reutilizável e apresente primeiro uma proposta clara para aprovação.
 10. Não confunda scouting com aprendizado: “a IA encontrou” não significa que o proprietário estudou, compreendeu, aplicou ou adquiriu experiência. Scouting e backlog nunca alimentam perfil automaticamente.
 11. Em cópia portátil ou dispositivo sem Git, siga [`governance/portable-capture.md`](governance/portable-capture.md): consulte o consolidado, crie apenas arquivos novos com `review_state: pending` e nunca sobrescreva conhecimento existente.
+12. Ao atuar como Builder, Tutor ou Examiner, siga [`study/learning-methodology.md`](study/learning-methodology.md). Material preparado por IA não comprova estudo; avaliações são privadas e não persistem notas, ranking ou histórico de respostas.
+13. Use `curriculum_state` apenas para progresso curricular e `learning_state` para a relação comprovada do proprietário com o tema. Nunca avance qualquer estado sem confirmação humana e evidência apropriada.
 
 Rotas principais: conceitos em [`knowledge/`](knowledge/README.md), situações recorrentes em [`patterns/`](patterns/README.md), experiências sanitizadas em [`cases/`](cases/README.md), escolhas em [`decisions/`](decisions/README.md), descoberta em [`study/scouting/`](study/scouting/README.md), fila em [`study/backlog/`](study/backlog/README.md), estudo em [`study/`](study/README.md) e trabalho em [`work/`](work/README.md).

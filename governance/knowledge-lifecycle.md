@@ -4,7 +4,7 @@ title: Ciclo de vida do conhecimento
 type: policy
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-26
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -77,6 +77,6 @@ Nem todo tema percorre todas as etapas, e a sequência não autoriza promoção 
 - aplicação pessoal não comprova experiência profissional;
 - experiência só é elegível como evidência quando real, permitida, sanitizada e aprovada.
 
-Use `learning_state` para a relação do proprietário com o conteúdo, `status` para o ciclo de governança e `backlog_status` somente para o estado da fila de estudo.
+Use `learning_state` para a relação do proprietário com o conteúdo, `curriculum_state` para o avanço no curriculum, `status` para o ciclo de governança e `backlog_status` somente para o estado da fila de estudo. Material preparado por IA pode avançar no máximo para `curriculum_state: prepared`; compreensão, validação, aplicação e experiência exigem confirmação humana e evidências próprias.
 
 Capturas externas adicionam `review_state` como fila de triagem. Elas podem permanecer `pending` ou `deferred` por tempo indeterminado; nenhuma cadência promove ou descarta conteúdo automaticamente. Somente itens aprovados entram no fluxo canônico de validação, aprovação e commit.

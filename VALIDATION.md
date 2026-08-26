@@ -4,7 +4,7 @@ title: Validação adversarial
 type: playbook
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-26
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -70,6 +70,9 @@ Use este documento antes de considerar confiável uma explicação, decisão, co
 - Material de scouting foi usado somente como referência provisória e com limitações explícitas?
 - `eligible_as_professional_evidence` está `true` apenas quando existe experiência profissional real, permitida e sanitizada?
 - Perfil, curriculum e backlog representam o estado atual sem inflar competência?
+- Um módulo apenas preparado foi mantido distinto de conteúdo estudado e validado?
+- Avaliações privadas evitam persistir nota, ranking, tentativas ou respostas completas?
+- Laboratório público comprova somente o escopo de aplicação realmente demonstrado e confirmado?
 
 ## Captura portátil
 

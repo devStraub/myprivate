@@ -4,7 +4,7 @@ title: Proveniência e metadados
 type: policy
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-26
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -61,6 +61,7 @@ visibility: private
 - `origin`: `professional-experience`, `study`, `official-documentation`, `book`, `paper`, `open-source`, `personal-experiment`, `ai-assisted-analysis`; múltiplos valores são permitidos.
 - `visibility`: `private`, `public-candidate`, `public`.
 - `learning_state`: `not-studied`, `studying`, `studied`, `understood`, `applied-personally`, `applied-professionally`.
+- `curriculum_state`: `planned`, `prepared`, `in_progress`, `studied`, `validated`, `applied`, `professional`; usado somente para progresso no curriculum.
 - `eligible_as_professional_evidence`: booleano; normalmente `false` e nunca inferido de estudo, scouting ou uso assistido por IA.
 - `review_state`: `pending`, `deferred`, `approved`, `rejected`, `consolidated`; usado somente em capturas portáteis ou propostas que aguardam triagem.
 
@@ -68,13 +69,16 @@ visibility: private
 
 ## Estado de aprendizagem e evidência profissional
 
-`status`, `confidence` e `learning_state` respondem perguntas diferentes:
+`status`, `confidence`, `curriculum_state` e `learning_state` respondem perguntas diferentes:
 
 - `status`: em que etapa de governança está o documento?
 - `confidence`: quão forte é a evidência da afirmação no escopo declarado?
 - `learning_state`: qual é a relação documentada do proprietário com o tema?
+- `curriculum_state`: em que etapa está o módulo dentro do fluxo curricular?
 
 Material gerado por scouting usa `origin: [ai-assisted-analysis]`, `learning_state: not-studied` e `eligible_as_professional_evidence: false`. Uma sessão estudada pode avançar o estado somente após revisão humana. Aplicação pessoal exige experimento documentado; aplicação profissional exige experiência real sanitizada. Mesmo `applied-professionally` não torna a evidência pública nem elimina a necessidade de aprovação.
+
+`curriculum_state: prepared` significa apenas que há material disponível. `validated` requer confirmação conceitual humana; `applied` requer laboratório ou projeto público sanitizado; `professional` requer evidência profissional separada. Nenhum estado é derivado de notas, tempo, quantidade de commits, atividade do repositório ou geração de código por IA.
 
 Em backlog, use `backlog_status` (`discovered`, `queued`, `studying`, `review`, `completed`, `discarded`) sem substituir o `status` global.
 

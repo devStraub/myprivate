@@ -4,7 +4,7 @@ title: Templates
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-26
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -29,6 +29,8 @@ visibility: private
 | [`work-learning.md`](work-learning.md) | Proposta sanitizada extraída de trabalho |
 | [`scouting.md`](scouting.md) | Knowledge Scouting Session e material descoberto |
 | [`study-backlog.md`](study-backlog.md) | Item priorizável do backlog de estudo |
+| [`curriculum-module.md`](curriculum-module.md) | Novo módulo versionado do curriculum |
+| [`public-study-lab.md`](public-study-lab.md) | Especificação de laboratório público e didático |
 
 ## Uso
 

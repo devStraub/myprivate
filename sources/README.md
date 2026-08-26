@@ -12,7 +12,7 @@ agents:
     role: structure
     date: 2026-08-23
 sources: []
-related: [../templates/source.md, official-documentation.md, books.md, papers.md, courses.md, engineering-blogs.md, repositories.md]
+related: [../templates/source.md, ../study/academic-references.md, official-documentation.md, books.md, papers.md, courses.md, engineering-blogs.md, repositories.md]
 visibility: private
 ---
 
@@ -36,3 +36,5 @@ Preferência geral: documentação oficial/especificação; papers e referência
 Nunca invente uma fonte. Uma URL sozinha não substitui a avaliação de autoridade, data, limitações e conhecimento derivado.
 
 Fontes localizadas em scouting são fontes sugeridas até serem registradas e avaliadas. Descoberta por agente não significa que o proprietário leu ou estudou a fonte.
+
+As referências universitárias usadas apenas para inspirar a cobertura temática do curriculum estão documentadas, com seus limites, em [`../study/academic-references.md`](../study/academic-references.md).

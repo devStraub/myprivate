@@ -1,80 +1,121 @@
 ---
 id: study-workflow
-title: Workflow de estudo
+title: AI-First Study Workflow
 type: workflow
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
-origin: [ai-assisted-analysis]
+updated: 2026-08-26
 agents:
   - provider: openai
     model: unknown
     role: structure
     date: 2026-08-23
+  - provider: openai
+    model: gpt-5.6-sol
+    role: consolidation
+    date: 2026-08-26
 sources: []
-related: [../templates/study-session.md, curriculum.md, ../VALIDATION.md]
+related:
+  - study/curriculum.md
+  - study/learning-methodology.md
+  - study/public-labs.md
+  - study/scouting/README.md
+  - study/backlog/README.md
+  - study/sessions/README.md
+  - templates/study-session.md
+  - governance/validation-checklist.md
 visibility: private
+origin: ai-assisted
 ---
 
-# Workflow de estudo
+# AI-First Study Workflow
 
-```text
-Descobrir ou escolher assunto → Mapear conhecimento atual → Definir objetivos
-→ Consumir fonte primária → Registrar dúvidas → Conversar com IA
-→ Aprofundar conceitos → Buscar fontes complementares
-→ Comparar abordagens → Executar exercícios/experimentos
-→ IA propõe situações problemáticas → Usuário identifica riscos
-→ Validar entendimento → Extrair conhecimento
-→ Propor criação/atualização → Revisão humana
-```
+## Purpose
 
-## 1. Preparar
+Turn a curriculum module, approved backlog item, source, or real problem into verified understanding and reusable evidence without confusing AI output with human learning.
 
-1. Escolha um assunto diretamente, no [`backlog`](backlog/README.md) ou em uma proposta de [`scouting`](scouting/README.md).
-2. Defina motivação, escopo e critérios de entendimento.
-3. Consulte índices relevantes e registre o conhecimento atual sem reescrevê-lo.
-4. Crie uma sessão a partir de [`../templates/study-session.md`](../templates/study-session.md); mude `learning_state` para `studying` somente quando o estudo começar de fato.
+There is no required weekly cadence. Capture may continue for any period; consolidation happens when the owner chooses.
 
-## Scouting opcional
+## End-to-end flow
 
-Quando solicitado pelo usuário, uma Knowledge Scouting Session pode mapear cobertura, pré-requisitos, mudanças recentes e fontes antes da escolha. Seus resultados permanecem `provisional`, `not-studied` e inelegíveis como evidência profissional. O agente propõe itens; o usuário decide o que entra no backlog.
+1. **Choose** a module or approved study item from the curriculum, backlog, scouting review, or current need.
+2. **Inspect** existing knowledge, sources, decisions, gaps, and prior evidence before generating new material.
+3. **Source** claims with primary material whenever practical and register relevant provenance.
+4. **Build** a minimal executable lab, tests, documentation, and study guide when the subject benefits from application.
+5. **Study** by reading the material, questioning it, and changing experiments or code.
+6. **Tutor** through explanation, counterexamples, alternative models, and targeted exercises.
+7. **Assess privately** with approximately ten unique conceptual questions balanced across fundamentals, application, and scenarios.
+8. **Diagnose gaps** from wrong or shallow answers and repeat targeted study with new questions.
+9. **Confirm** the resulting state and evidence with the owner; never promote automatically.
+10. **Consolidate** useful material into knowledge, decisions, sessions, profile evidence, or a public sanitized lab.
 
-## 2. Investigar
+## Selection and scouting
 
-1. Prefira fonte primária ou mais autoritativa disponível.
-2. Registre cada fonte conforme [`../templates/source.md`](../templates/source.md).
-3. Liste dúvidas, assumptions e pontos que parecem contraditórios.
-4. Use IA para explicar, comparar, questionar e gerar contraexemplos; registre sua participação.
-5. Consulte fontes complementares quando autoridade, atualidade ou aplicabilidade forem insuficientes.
+Scouting is an optional observation layer, not a prerequisite for every study session. It may identify changes, unknown topics, market signals, or gaps. Relevant findings move to the backlog only after review.
 
-## 3. Praticar e desafiar
+Neither scouting nor backlog presence proves competence. Both remain linked to their sources and confidence.
 
-1. Execute exercícios ou experimentos proporcionais ao tema.
-2. Peça à IA exemplos problemáticos, soluções aparentemente plausíveis e failure modes.
-3. Tente identificar riscos antes de ler a análise da IA.
-4. Busque falsificar o próprio entendimento e aplique [`../VALIDATION.md`](../VALIDATION.md).
+## Source discipline
 
-## 4. Classificar o aprendizado
+- Prefer official documentation, specifications, standards, academic material, and reproducible experiments.
+- Record source URLs and retrieval dates when external claims matter.
+- Separate source-backed facts from inference and personal judgment.
+- Re-check time-sensitive claims before consolidation.
 
-- **Internalizar:** modelos mentais necessários para julgar soluções.
-- **Reconhecer:** patterns, sintomas, riscos, trade-offs e anti-patterns.
-- **Externalizar:** detalhes, checklists, procedimentos, evidências e referências recuperáveis.
-- **Delegar à IA:** sintaxe, boilerplate e consultas pontuais que podem ser recuperadas e verificadas sob demanda.
+## AI roles
 
-Delegar não elimina responsabilidade por validar a saída.
+### Builder
 
-## 5. Consolidar
+Creates the smallest useful lab, tests, README, supporting documentation, and `STUDY_GUIDE.md`. Code comments should explain intent, tradeoffs, invariants, and failure modes—not translate syntax line by line.
 
-1. Diferencie o que foi compreendido, apenas lido, observado em experimento ou sugerido por IA.
-2. Pesquise conteúdo existente e escolha atualizar ou criar conforme o [ciclo de vida](../governance/knowledge-lifecycle.md).
-3. Relacione sessão, fontes, knowledge, patterns, decisions, stacks e áreas.
-4. Apresente a proposta com status e confiança proporcionais à evidência.
-5. Aguarde revisão humana antes de incorporar ou promover.
+### Tutor
 
-Ao concluir um item de backlog, atualize `backlog_status` separadamente. `completed` descreve o objetivo da fila, não proficiência ou experiência.
+Explains concepts, asks diagnostic questions, proposes experiments, and adapts the next explanation to observed gaps.
 
-Em dispositivo sem Git, registre sessões, scouting e backlog como arquivos novos com `review_state: pending`. A revisão pode ocorrer em qualquer momento posterior; não há promoção automática por idade ou quantidade.
+### Examiner
 
-## Critério de conclusão
+Runs a temporary private assessment using new questions for each cycle. It checks conceptual correctness rather than exact wording.
 
-A sessão pode terminar com dúvidas abertas. Registre o que permanece incerto, como poderia ser validado e quando revisar; não force uma síntese falsa apenas para concluir o assunto.
+The same agent may perform multiple roles, but the output of any role remains AI-generated material until the owner reviews it.
+
+See [learning-methodology.md](learning-methodology.md) for the complete role and assessment rules.
+
+## Private assessment protocol
+
+- Use approximately ten questions: roughly three fundamentals, four application questions, and three scenarios.
+- Do not reuse questions during remediation.
+- Diagnose the concept behind each relevant error.
+- Continue with targeted explanations and new questions until no material conceptual gaps remain or the owner stops the cycle.
+- Do not persist grades, percentages, rankings, attempt counts, or full question-and-answer history.
+- Persist only useful conclusions: confirmed state, identified gaps, decisions, follow-up items, and approved evidence.
+
+## Knowledge handling classification
+
+For each consolidated item, decide whether the owner should:
+
+- **Internalize** — understand and recall it directly.
+- **Recognize** — know when it matters and how to find reliable detail.
+- **Externalize** — preserve it as a checklist, reference, decision, template, or automation.
+- **Delegate** — let a tool perform it while retaining enough understanding to review the result.
+
+## Applied evidence and public labs
+
+A module reaches `applied` only after an appropriate public, sanitized project or lab exists and the owner confirms that its requirements were met. AI-generated implementation does not imply manual authorship, understanding, or professional experience.
+
+Follow [public-labs.md](public-labs.md) for repository structure, tests, documentation, and publication safeguards.
+
+## Consolidation and human approval
+
+During consolidation:
+
+1. Keep useful and sourceable content.
+2. Correct or discard noise, duplicates, unverifiable claims, and sensitive material.
+3. Preserve uncertainty instead of inventing certainty.
+4. Propose updates to canonical records.
+5. Require explicit human approval for claims about skills, understanding, application, or professional experience.
+
+## Portable capture
+
+On another device, an agent may create drafts in the portable capture locations after following the repository instructions. Those drafts remain unverified input. Returning them to the main machine does not trigger automatic consolidation, state advancement, or profile updates.
+
+The owner decides when to run consolidation; the interval may be a day, a week, several weeks, or any other convenient period.

@@ -4,7 +4,7 @@ title: Developer Toolbox
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-26
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -52,7 +52,7 @@ Comece por este mapa ou pelo índice da tecnologia/área relevante. Consulte som
 
 ## Uso no estudo
 
-Siga [`study/study-workflow.md`](study/study-workflow.md), registre a sessão com o template apropriado e separe o que precisa ser internalizado, reconhecido, externalizado ou delegado à IA. [`study/scouting/`](study/scouting/README.md) guarda material descoberto por agentes e [`study/backlog/`](study/backlog/README.md) organiza temas aceitos para estudo. Só consolide conclusões após evidência e revisão humana.
+Siga [`study/study-workflow.md`](study/study-workflow.md), navegue pelo [`curriculum`](study/curriculum.md) e seus [módulos](study/modules/README.md), e registre a sessão com o template apropriado. Separe o que precisa ser internalizado, reconhecido, externalizado ou delegado à IA. Scouting guarda material descoberto e o backlog organiza temas aceitos; laboratórios públicos podem demonstrar aplicação pessoal, mas só após estudo, sanitização, evidência e confirmação humana.
 
 ## Estoque de estudo
 

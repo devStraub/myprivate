@@ -4,7 +4,7 @@ title: Dados estruturados de perfil
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-26
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -34,3 +34,5 @@ visibility: private
 - exigir aprovação humana para qualquer resumo público ou mudança de visibilidade.
 - excluir scouting e backlog como evidência de competência; eles representam descoberta e intenção de estudo.
 - distinguir execução assistida por IA de base conceitual validada e aplicação autônoma demonstrada.
+- tratar laboratório público sanitizado como possível evidência de aplicação pessoal, nunca como prova automática de autoria manual, compreensão ou experiência profissional.
+- não persistir notas, percentuais, rankings ou histórico de avaliações privadas no perfil.
