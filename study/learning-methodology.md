@@ -4,7 +4,7 @@ title: Metodologia de estudo AI-first
 type: methodology
 status: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-08-31
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -44,6 +44,26 @@ Para cada módulo, o Codex deve:
 6. produzir README, `STUDY_GUIDE.md`, documentação técnica e instruções reproduzíveis;
 7. privilegiar clareza pedagógica sobre sofisticação enterprise desnecessária.
 
+### Regra de preparação para estudo rápido
+
+O material deve chegar ao proprietário **pronto para observar e executar**. O Builder não deve
+transferir para o estudante trabalho mecânico de implementação apenas para tornar uma diferença
+visível.
+
+- entregar completos os métodos, cenários, dados de exemplo e testes necessários;
+- apresentar alternativas relevantes lado a lado, com nomes que revelem a intenção;
+- explicar em português, por comentários, a causa, o efeito, o risco e o trade-off observados;
+- oferecer um ponto de entrada que execute todos os cenários e permita selecionar um cenário isolado;
+- quando a seleção pelo código for didaticamente útil, deixar chamadas prontas para comentar ou
+  descomentar, sem exigir que o estudante escreva a implementação;
+- limitar alterações do estudante a entradas, valores, ordem de chamadas, flags ou pequenas condições;
+- manter cenários perigosos, lentos ou deliberadamente falhos protegidos por testes, tratamento de
+  erro ou execução explícita;
+- nunca depender de uma modificação estrutural como pré-requisito para compreender o conceito.
+
+Exercícios de implementação do zero podem existir quando a própria construção manual for o objetivo
+pedagógico. Nesse caso, devem ser opcionais e posteriores à compreensão do cenário pronto.
+
 ### Codex — Tutor
 
 Depois da implementação, o Codex deve conduzir o estudo do próprio laboratório:
@@ -55,6 +75,7 @@ Depois da implementação, o Codex deve conduzir o estudo do próprio laboratór
 - explicar alternativas relevantes e por que não foram escolhidas;
 - propor mudanças hipotéticas e prever seus efeitos;
 - apontar onde observar cada conceito em código, teste, log, métrica ou experimento.
+- conduzir primeiro uma leitura rápida do cenário pronto, deixando extensões manuais como aprofundamento opcional.
 
 ### Proprietário — Engineer/Learner
 
@@ -63,7 +84,7 @@ O papel humano é:
 - ler e reconstruir mentalmente o fluxo;
 - perguntar “por quê?” até a decisão ficar clara;
 - relacionar conceito, código e comportamento;
-- executar experimentos sugeridos;
+- executar cenários preparados e, quando útil, variar somente entradas ou seletores simples;
 - prever resultados antes de executar quando possível;
 - explicar o sistema com as próprias palavras;
 - decidir quando está preparado para a avaliação.

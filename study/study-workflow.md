@@ -4,7 +4,7 @@ title: AI-First Study Workflow
 type: workflow
 status: draft
 created: 2026-08-23
-updated: 2026-08-26
+updated: 2026-08-31
 agents:
   - provider: openai
     model: unknown
@@ -41,7 +41,7 @@ There is no required weekly cadence. Capture may continue for any period; consol
 1. **Choose** a module or approved study item from the curriculum, backlog, scouting review, or current need.
 2. **Inspect** existing knowledge, sources, decisions, gaps, and prior evidence before generating new material.
 3. **Source** claims with primary material whenever practical and register relevant provenance.
-4. **Build** a minimal executable lab, tests, documentation, and study guide when the subject benefits from application.
+4. **Build** a minimal executable lab, tests, documentation, study guide, and ready-to-run contrasting scenarios when the subject benefits from application.
 5. **Study** by reading the material, questioning it, and changing experiments or code.
 6. **Tutor** through explanation, counterexamples, alternative models, and targeted exercises.
 7. **Assess privately** with approximately ten unique conceptual questions balanced across fundamentals, application, and scenarios.
@@ -66,7 +66,7 @@ Neither scouting nor backlog presence proves competence. Both remain linked to t
 
 ### Builder
 
-Creates the smallest useful lab, tests, README, supporting documentation, and `STUDY_GUIDE.md`. Code comments should explain intent, tradeoffs, invariants, and failure modes—not translate syntax line by line.
+Creates the smallest useful lab, tests, README, supporting documentation, and `STUDY_GUIDE.md`. Code comments should explain intent, tradeoffs, invariants, and failure modes—not translate syntax line by line. Scenarios must be complete and selectable; the owner should not need to rewrite relevant code merely to observe the intended contrast.
 
 ### Tutor
 

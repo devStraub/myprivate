@@ -46,6 +46,10 @@ Descreva componentes mínimos. Não adicionar tecnologia sem função pedagógic
 
 Comentar decisões, invariantes, riscos e trade-offs. Não comentar apenas sintaxe óbvia.
 
+Entregar métodos e cenários completos. Quando houver comportamentos contrastantes, deixá-los
+selecionáveis por runner, teste, argumento ou chamadas prontas para comentar/descomentar. A primeira
+compreensão não deve depender de reescrever a implementação.
+
 ## Testes
 
 Liste comportamentos que os testes precisam evidenciar.
@@ -57,7 +61,8 @@ Defina a ordem de leitura e, para cada etapa:
 - o que observar;
 - por que existe;
 - o que aconteceria se fosse diferente;
-- qual experimento executar.
+- qual cenário pronto executar e qual saída observar;
+- qual entrada ou seletor simples pode ser alterado opcionalmente.
 
 ## Avaliação privada
 

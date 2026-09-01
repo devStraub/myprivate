@@ -4,7 +4,7 @@ title: Laboratórios públicos de estudo
 type: standard
 status: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-08-31
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -131,16 +131,31 @@ Testes devem ensinar comportamento, não apenas aumentar cobertura. Quando aplic
 
 ## Experimentos
 
-Sempre que o tema permitir, o laboratório deve possibilitar alterar uma variável e observar a consequência. Exemplos:
+Sempre que o tema permitir, o laboratório deve fornecer cenários completos que tornem a consequência
+observável imediatamente. O caminho principal não deve instruir o estudante a implementar, remover ou
+reescrever trechos relevantes para só então perceber a diferença.
 
-- remover um índice;
-- gerar duas requisições concorrentes;
-- desligar um broker;
-- inserir latência;
-- remover uma annotation transacional;
-- trocar algoritmo/estrutura;
-- degradar uma dependência;
-- alterar consistência ou retry.
+Preferir:
+
+- métodos nomeados para cada comportamento ou alternativa;
+- testes lado a lado para caminho normal, limite e falha;
+- um runner que execute todos os cenários ou aceite um seletor simples;
+- chamadas prontas que possam ser comentadas/descomentadas para reduzir o foco;
+- parâmetros pequenos que possam ser alterados sem mudar a estrutura;
+- comentários em português explicando o resultado esperado e o motivo.
+
+Exemplos de cenários preparados:
+
+- consulta com índice e consulta sem índice já mensuráveis;
+- execução sequencial e duas requisições concorrentes já disponíveis;
+- broker disponível e indisponível simulados por cenário;
+- dependência normal, lenta e degradada selecionáveis;
+- implementação transacional e alternativa insegura isoladas;
+- algoritmos ou estruturas comparáveis pela mesma entrada;
+- políticas de consistência e retry configuráveis por argumento.
+
+O aprofundamento pode propor modificações manuais depois que o modelo mental estiver estabelecido,
+mas elas não são requisito para a primeira compreensão.
 
 ## Requisito para status `applied`
 
