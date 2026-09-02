@@ -52,6 +52,12 @@ sanitization:
 
 <Descrição abstrata da evidência e suas limitações.>
 
+### Separação epistemológica
+
+- Observado diretamente: <fatos confirmados por evidência permitida>
+- Inferido ou proposto pela IA: <interpretações que não são fatos confirmados>
+- Não verificado: <testes, gates, resultados ou aprovações pendentes>
+
 ## Conteúdo existente relacionado
 
 <Resultados da busca e por que atualizar ou criar.>
@@ -67,6 +73,7 @@ sanitization:
 ## Revisão de sanitização
 
 - Categorias removidas: <sem repetir conteúdo sensível>
+- Números, cronologia e combinações singulares removidos: <sim/não/não aplicável>
 - Singularidade residual: <avaliação>
 - Nível proposto: <generalized|high-risk-review-required|rejected>
 - Fontes permitidas: <IDs ou nenhuma>

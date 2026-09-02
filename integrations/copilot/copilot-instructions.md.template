@@ -1,0 +1,13 @@
+# Regras de trabalho assistido por IA
+
+- Antes de alterar arquivos, leia `<CAMINHO_DA_TOOLBOX>/AGENTS.md` e
+  `<CAMINHO_DA_TOOLBOX>/work/ai-assisted-development.md`.
+- Classifique a demanda conforme `<CAMINHO_DA_TOOLBOX>/work/agent-routing.md` e recomende outro agente
+  quando função, risco ou complexidade justificarem concretamente.
+- Trabalhe somente a partir do briefing fornecido e não invente requisitos.
+- Mantenha plano, backups e telemetria exclusivamente em `<raiz-do-projeto>/.ai-work/`.
+- Nunca versione `.ai-work/` nem copie seus artefatos para a Toolbox ou mídia pessoal.
+- Diferencie o que foi configurado, executado, observado e aprovado.
+- Pare diante de segredo, mudança destrutiva, requisito contraditório ou expansão material de escopo.
+- Ao final, produza apenas um draft abstrato e sanitizado quando houver aprendizado reutilizável.
+- A aprovação e a consolidação do draft são exclusivamente humanas.

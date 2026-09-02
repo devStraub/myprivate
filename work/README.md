@@ -22,7 +22,10 @@ Processo para consultar a Toolbox durante demandas e propor aprendizados seguros
 
 - [`work-workflow.md`](work-workflow.md): execução, validação e extração.
 - [`ai-assisted-development.md`](ai-assisted-development.md): briefing, plano, backup, telemetria e drafts ao trabalhar com Copilot ou outro agente.
+- [`agent-routing.md`](agent-routing.md): escolha adaptativa entre planner, executor, validator e reviewer.
 - [`copilot-start-prompt.md`](copilot-start-prompt.md): instrução curta para iniciar uma demanda no ambiente de trabalho.
+- [`../tools/`](../tools/README.md): inicialização, backup, validação e limpeza segura de `.ai-work/`.
+- [`../integrations/copilot/`](../integrations/copilot/README.md): adaptadores opcionais reconhecidos pelo Copilot.
 - [`intake/`](intake/README.md): propostas temporárias já abstraídas e sanitizadas.
 
 Nunca use este diretório para armazenar ticket, código, log, payload ou documentação corporativa. A abstração deve ocorrer antes da escrita na Toolbox.

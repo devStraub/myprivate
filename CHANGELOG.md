@@ -29,5 +29,8 @@ Alterações relevantes da estrutura e das políticas. A evolução detalhada de
 - Knowledge Scouting, backlog de estudo e separação entre conhecimento descoberto, estudado, aplicado e experienciado.
 - Captura portátil append-only, estados de revisão e consolidação sob demanda sem dependência de Git no dispositivo externo.
 - Curriculum de engenharia de software v1.0 com 22 módulos, metodologia AI-first, avaliações conceituais privadas e laboratórios públicos sanitizados como evidência de aplicação pessoal.
+- Fluxo portátil `.ai-work/` com plano, backups, telemetria, validação e limpeza protegida.
+- Utilitários PowerShell e adaptadores opcionais para instruções e prompts do GitHub Copilot.
+- Roteamento adaptativo entre planner, executor, validator e reviewer, com recomendação de Luna ou Sol baseada em risco e complexidade.
 
 > Esta entrada permanece não publicada e em `draft` até revisão humana e commit aprovado.

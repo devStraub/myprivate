@@ -26,20 +26,31 @@ de sanitização relacionadas. Trate esses arquivos como regras de execução de
 
 Aguarde meu descritivo da implementação. A partir dele, antes de alterar qualquer arquivo:
 
-1. inspecione somente o contexto necessário;
-2. crie plan.md usando templates/ai-work-plan.md;
-3. registre escopo, fora de escopo, assumptions, perguntas, riscos, passos e validações;
-4. identifique os arquivos que podem mudar;
-5. crie backup timestampado desses arquivos e um manifesto com tamanho e SHA-256;
-6. inicie telemetria operacional mínima em JSONL usando templates/ai-work-telemetry.jsonl;
-7. confirme que os artefatos operacionais estão em local corporativo autorizado e fora do commit;
-8. implemente em passos pequenos, atualizando plano e telemetria após cada validação;
-9. não copie código, plano, backup, diff, logs ou telemetria bruta para a Toolbox ou mídia pessoal;
-10. ao final, gere em work/intake apenas um novo draft abstrato e sanitizado se houver aprendizado
+1. leia work/agent-routing.md e classifique escopo, ambiguidade, impacto, diagnóstico e validação;
+2. se o agente atual não for adequado, recomende Luna ou Sol com função, motivo e ponto de retorno;
+3. aguarde minha decisão apenas quando a troca for necessária para prosseguir com segurança;
+4. inspecione somente o contexto necessário;
+5. dentro da raiz do projeto alterado, crie `.ai-work/plan.md` usando templates/ai-work-plan.md;
+6. registre escopo, fora de escopo, assumptions, perguntas, riscos, passos e validações;
+7. identifique os arquivos que podem mudar;
+8. crie os backups em `.ai-work/backups/<timestamp>/`, com manifesto, tamanho e SHA-256;
+9. inicie `.ai-work/telemetry.jsonl` usando templates/ai-work-telemetry.jsonl;
+10. confirme que os artefatos operacionais estão em local corporativo autorizado e fora do commit;
+11. implemente em passos pequenos, atualizando plano e telemetria após cada validação;
+12. diferencie o que foi configurado, executado, observado e aprovado; registre gates pendentes e o
+responsável pela confirmação quando não puder observá-los;
+13. não copie código, plano, backup, diff, logs ou telemetria bruta para a Toolbox ou mídia pessoal;
+14. ao final, gere em work/intake apenas um novo draft abstrato e sanitizado se houver aprendizado
 reutilizável. Mantenha review_state: pending e sanitization.approved: false.
+15. depois da validação, aceitação e criação do draft sanitizado, confira que `.ai-work/` pertence ao
+projeto e contém somente artefatos operacionais; então remova o diretório por completo.
+
+No draft, separe fatos observados, inferências da IA e itens não verificados. Remova contagens exatas,
+cronologia rara e combinações operacionais desnecessárias.
 
 Não invente requisitos. Pare e me consulte se houver segredo, requisito contraditório, mudança destrutiva,
 expansão material de escopo ou impossibilidade de criar um backup seguro.
+Não apague `.ai-work/` enquanto houver validação, rollback ou aprovação pendente.
 ```
 
 Depois, envie o descritivo da demanda com objetivo, comportamento atual e desejado, critérios de aceite,

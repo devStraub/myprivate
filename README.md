@@ -45,6 +45,8 @@ Base pessoal, portátil e versionada para transformar estudo e experiência sani
 | [`profile-data/`](profile-data/README.md) | Que evidências sustentam o perfil profissional? |
 | [`governance/`](governance/README.md) | Quais regras protegem a qualidade e a confidencialidade? |
 | [`templates/`](templates/README.md) | Como propor um documento novo? |
+| [`tools/`](tools/README.md) | Como automatizar com segurança o ciclo operacional? |
+| [`integrations/`](integrations/README.md) | Como conectar as regras a agentes e IDEs? |
 
 ## Como navegar
 
@@ -60,7 +62,7 @@ Scouting, backlog, estudo, compreensão, aplicação e experiência são estados
 
 ## Uso no trabalho
 
-Siga [`work/work-workflow.md`](work/work-workflow.md). Antes de registrar qualquer experiência, cumpra obrigatoriamente [`governance/sanitization.md`](governance/sanitization.md). A Toolbox recebe a lição generalizada, nunca código, dados, nomes ou arquitetura identificável de terceiros.
+Siga [`work/work-workflow.md`](work/work-workflow.md). Antes de registrar qualquer experiência, cumpra obrigatoriamente [`governance/sanitization.md`](governance/sanitization.md). A Toolbox recebe a lição generalizada, nunca código, dados, nomes ou arquitetura identificável de terceiros. Os [`utilitários portáteis`](tools/README.md) ajudam a iniciar, validar e encerrar o ciclo `.ai-work/`.
 
 ## Como adicionar conhecimento
 

@@ -39,8 +39,9 @@ TOOLBOX PESSOAL / PEN DRIVE
 draft generalizado em work/intake, review_state: pending
 ```
 
-Backups, plano, diff e telemetria bruta podem conter propriedade da empresa. Permanecem apenas na
-máquina e no armazenamento autorizados pela organização, conforme suas políticas de retenção.
+Backups, plano, diff e telemetria bruta podem conter propriedade da empresa. Durante a demanda,
+permanecem somente dentro do projeto alterado, em `.ai-work/`, conforme as políticas da organização.
+Nunca devem ser copiados para a Toolbox, pen drive pessoal ou Git pessoal.
 
 ## Fluxo obrigatório
 
@@ -60,12 +61,16 @@ O briefing deve esclarecer, quando disponível:
 - arquivos, serviços ou componentes autorizados;
 - riscos e necessidade de rollback.
 
+Antes de seguir, aplique o [`roteamento de agentes`](agent-routing.md). Classifique escopo, ambiguidade,
+impacto, diagnóstico e validação. Se o agente atual não for adequado, recomende outro com motivo concreto,
+papel esperado e ponto de retorno. A troca depende de decisão humana.
+
 ### 2. Criar `plan.md`
 
 Antes da primeira alteração, crie `plan.md` usando [`../templates/ai-work-plan.md`](../templates/ai-work-plan.md).
-O local padrão é uma área operacional autorizada e excluída do versionamento, por exemplo
-`.ai-work/plan.md`, quando a política da empresa permitir. Caso contrário, use um diretório corporativo
-seguro fora do repositório.
+O arquivo deve ser criado dentro do projeto alterado em `.ai-work/plan.md`. O diretório operacional deve
+estar excluído do versionamento por um mecanismo aprovado. Se a política da empresa proibir esse tipo de
+artefato dentro do projeto, pare e solicite orientação em vez de escolher outro local silenciosamente.
 
 O agente deve:
 
@@ -74,6 +79,8 @@ O agente deve:
 - indicar backup e validação de cada etapa;
 - registrar assumptions, riscos e perguntas abertas;
 - marcar passos como `pending`, `in_progress`, `completed` ou `blocked`;
+- separar para cada validação o que foi configurado, executado, observado e aprovado;
+- identificar gates indisponíveis localmente e o responsável pela validação posterior;
 - atualizar o plano quando descobrir algo que altere o caminho;
 - não incluir credenciais, payloads reais ou conteúdo confidencial desnecessário.
 
@@ -114,6 +121,8 @@ Registrar somente o necessário:
 - comando ou teste em forma sanitizada;
 - contagens agregadas;
 - referência ao passo do plano;
+- camada da falha e classificação do resultado, quando aplicáveis;
+- estado da evidência, sem confundir execução com aprovação;
 - erro resumido sem payload, segredo ou código.
 
 Não registrar conteúdo de arquivo, prompt completo, resposta integral da IA, secret, payload, dado pessoal,
@@ -145,6 +154,12 @@ Antes de concluir:
 - indicar como reverter;
 - manter backups até a aceitação ou conforme política corporativa.
 
+Depois da implementação concluída e aceita, extraia primeiro o aprendizado permitido e então remova
+`.ai-work/` por completo, incluindo `plan.md`, backups, manifestos e telemetria. Antes da remoção, confira
+o caminho absoluto, confirme que ele pertence ao projeto atual, verifique que não contém arquivos de
+produto e registre no encerramento que a limpeza foi realizada. Não remova os artefatos enquanto houver
+validação, rollback ou aprovação pendente, salvo determinação expressa da política corporativa.
+
 Use [`../checklists/ai-assisted-change.md`](../checklists/ai-assisted-change.md) como revisão final.
 
 ### 7. Gerar draft para a Toolbox
@@ -160,10 +175,27 @@ Quando existir:
 5. grave um novo arquivo em `work/intake` com `status: draft` e `review_state: pending`;
 6. mantenha `sanitization.approved: false` até revisão na máquina principal;
 7. não atualize knowledge, profile, case ou curriculum automaticamente.
+8. somente depois de salvar o draft sanitizado, concluir as validações e obter a aceitação necessária,
+   remover os artefatos operacionais locais conforme a etapa de limpeza.
+
+O draft deve separar explicitamente fatos observados, inferências da IA e itens não verificados. Remova
+também contagens exatas, cronologia rara, combinações de status e outros sinais operacionais que não
+sejam necessários para compreender o aprendizado generalizado.
+
+## Análises condicionais por tipo de demanda
+
+Use somente quando forem pertinentes, sem transformar toda mudança em um processo pesado:
+
+- migração de plataforma: matriz de compatibilidade, etapas e critérios de saída;
+- dependências: separar inventário de achados acionáveis, identificar origem direta/transitiva ou BOM e
+  validar a árvore efetivamente resolvida;
+- segurança dependente de pipeline: registrar separadamente configuração, execução, resultado observado
+  e aprovação, mantendo responsável e pendência quando o gate não estiver acessível;
+- integração distribuída: identificar etapa e camada da falha e usar correlação sanitizada quando houver.
 
 ## Estrutura operacional sugerida
 
-Somente quando permitida no ambiente corporativo:
+Dentro da raiz do projeto alterado, quando permitido no ambiente corporativo:
 
 ```text
 .ai-work/
@@ -176,13 +208,25 @@ Somente quando permitida no ambiente corporativo:
 ```
 
 `.ai-work/` deve ficar fora do commit por mecanismo aprovado pela equipe. Não altere `.gitignore`
-compartilhado silenciosamente; prefira exclusão local ou diretório externo quando necessário.
+compartilhado silenciosamente; prefira uma exclusão local do Git. Se isso não for permitido, pare e
+solicite orientação. Ao final do ciclo, o diretório deve ser removido conforme as condições de limpeza.
+
+## Automação portátil
+
+Quando PowerShell e Git estiverem disponíveis e a política local permitir, use os
+[`utilitários da Toolbox`](../tools/README.md) para criar a estrutura, registrar a exclusão local no Git,
+gerar backups com hash, validar os artefatos e executar a limpeza protegida. A automação recusa caminhos
+fora do projeto e não substitui aceitação, revisão de sanitização ou autorização organizacional.
+
+Para Copilot, consulte os [`adaptadores opcionais`](../integrations/copilot/README.md). Não os copie para
+um repositório corporativo sem autorização, pois os arquivos de instrução do projeto podem ser versionados.
 
 ## Comportamento esperado do agente
 
 - mostrar o plano antes de implementar quando houver risco ou ambiguidade relevante;
 - não declarar sucesso apenas porque o código compila;
 - não restaurar backup automaticamente sobre mudanças humanas posteriores;
-- não apagar backup ou telemetria sem autorização e política de retenção;
+- não apagar artefatos operacionais antes da aceitação, da extração segura do aprendizado e das
+  verificações de limpeza;
 - não transformar volume de telemetria em produtividade, proficiência ou avaliação pessoal;
 - distinguir claramente evidência observada, inferência e sugestão da IA.
