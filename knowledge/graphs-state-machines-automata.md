@@ -148,16 +148,16 @@ memória necessária para decidir a continuação.
 
 ## Evidências e fontes
 
-Síntese baseada na conversa de estudo e nos cenários executáveis do laboratório
-`lab-computer-science-foundations`. Não constitui evidência de experiência profissional. Fontes acadêmicas
-e padrões relacionados permanecem listados no README do laboratório e podem ser registrados
-individualmente na Toolbox caso sejam usados em uma revisão futura.
+Síntese baseada na conversa de estudo, em exemplos abstratos e em uma exploração executável temporária
+posteriormente removida por não justificar um projeto público próprio. Não constitui evidência de experiência
+profissional. Fontes acadêmicas e padrões relacionados podem ser registrados individualmente na Toolbox
+caso sejam usados em uma revisão futura.
 
 ## Conhecimento relacionado
 
 - [`01 — Computer Science Foundations`](../study/modules/01-computer-science-foundations.md)
-- [Laboratório público](https://github.com/devStraub/lab-computer-science-foundations)
 
 ## Histórico de revisão
 
 - 2026-09-01: consolidado após confirmação humana de compreensão e correlação com práticas já conhecidas.
+- 2026-09-01: removida a dependência do laboratório público; a síntese permanece como referência canônica.

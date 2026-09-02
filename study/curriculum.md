@@ -89,7 +89,7 @@ State advancement is never automatic or required to continue studying. Duration,
 | # | Module | Suggested public evidence |
 |---|---|---|
 | 00 | [Engineering Lab Base](modules/00-engineering-lab-base.md) | Reusable Java/Spring/PostgreSQL/JUnit/Docker lab base |
-| 01 | [Computer Science Foundations](modules/01-computer-science-foundations.md) | `lab-computational-foundations` |
+| 01 | [Computer Science Foundations](modules/01-computer-science-foundations.md) | Reusable knowledge notes; public lab optional |
 | 02 | [Algorithms and Data Structures](modules/02-algorithms-data-structures.md) | `lab-algorithms-data-structures` |
 | 03 | [Programming Languages and JVM](modules/03-programming-languages-jvm.md) | `lab-jvm-language-runtime` |
 | 04 | [Concurrency and Parallelism](modules/04-concurrency-parallelism.md) | `lab-concurrency-parallelism` |
