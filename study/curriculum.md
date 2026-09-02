@@ -5,7 +5,7 @@ type: curriculum
 status: draft
 curriculum_version: 1.0
 created: 2026-08-23
-updated: 2026-08-26
+updated: 2026-09-01
 agents:
   - provider: openai
     model: unknown
@@ -59,8 +59,8 @@ Prepared material is only a study asset. It does not prove that the owner studie
 ### Phase B — Study, Understanding, and Public Evidence
 
 1. Study the prepared material through reading, questions, and experiments.
-2. Run a private conceptual assessment with unique questions.
-3. Diagnose gaps and repeat targeted study until the owner confirms understanding.
+2. Ask questions and consult the material whenever doubts arise.
+3. Revisit explanations and prepared scenarios as needed, without a mandatory assessment cycle.
 4. When appropriate, publish a sanitized lab or project as applied evidence.
 5. Record only the state and evidence that a human has approved.
 
@@ -74,11 +74,11 @@ Prepared material is only a study asset. It does not prove that the owner studie
 | `prepared` | Study material or a lab was prepared, but learning is not implied. |
 | `in_progress` | The owner is actively studying the module. |
 | `studied` | The planned material was reviewed by the owner. |
-| `validated` | The owner confirmed conceptual understanding after assessment and gap review. |
+| `validated` | Optional owner-confirmed state based on practical use and reflection, without a mandatory assessment. |
 | `applied` | A public, sanitized lab or project demonstrates personal application. |
 | `professional` | Separate, sanitized evidence supports professional application. |
 
-State advancement is never automatic. Scores, percentages, rankings, duration, repository activity, or AI-generated output must not be treated as proof of understanding.
+State advancement is never automatic or required to continue studying. Duration, repository activity, or AI-generated output must not be treated as proof of understanding.
 
 ## Core curriculum — version 1.0
 

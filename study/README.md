@@ -21,7 +21,7 @@ visibility: private
 - [`study-workflow.md`](study-workflow.md): processo AI-first de estudo, validação e extração.
 - [`curriculum.md`](curriculum.md): curriculum versionado, extensível e sem duração obrigatória.
 - [`modules/`](modules/README.md): 22 módulos, objetivos e projetos públicos sugeridos.
-- [`learning-methodology.md`](learning-methodology.md): papéis Builder, Tutor, Owner e Examiner.
+- [`learning-methodology.md`](learning-methodology.md): papéis Builder, Tutor e Owner, com consulta contínua sob demanda.
 - [`public-labs.md`](public-labs.md): regras para laboratórios didáticos, executáveis e sanitizados.
 - [`academic-references.md`](academic-references.md): referências acadêmicas oficiais e seus limites.
 - [`scouting/`](scouting/README.md): material descoberto e pré-organizado por agentes.

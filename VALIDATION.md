@@ -71,7 +71,7 @@ Use este documento antes de considerar confiável uma explicação, decisão, co
 - `eligible_as_professional_evidence` está `true` apenas quando existe experiência profissional real, permitida e sanitizada?
 - Perfil, curriculum e backlog representam o estado atual sem inflar competência?
 - Um módulo apenas preparado foi mantido distinto de conteúdo estudado e validado?
-- Avaliações privadas evitam persistir nota, ranking, tentativas ou respostas completas?
+- O estudo permanece consultável sem exigir prova, nota, ranking ou condição formal de aprovação?
 - Laboratório público comprova somente o escopo de aplicação realmente demonstrado e confirmado?
 
 ## Captura portátil

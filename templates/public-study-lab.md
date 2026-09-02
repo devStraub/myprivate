@@ -4,7 +4,7 @@ title: Template — Public Study Lab
 type: template
 status: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-01
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -64,9 +64,10 @@ Defina a ordem de leitura e, para cada etapa:
 - qual cenário pronto executar e qual saída observar;
 - qual entrada ou seletor simples pode ser alterado opcionalmente.
 
-## Avaliação privada
+## Consulta contínua
 
-Depois do estudo, gerar aproximadamente 10 perguntas inéditas. Se houver erro, diagnosticar a lacuna, apontar material exato e gerar novas perguntas diferentes até fechar a lacuna. Não persistir score na Toolbox.
+Manter o laboratório adequado para consultas futuras. Dúvidas devem ser respondidas relacionando conceito,
+código, teste, cenário e fonte, sem prova obrigatória, score ou condição formal de aprovação.
 
 ## Definição de pronto
 
@@ -75,4 +76,4 @@ Depois do estudo, gerar aproximadamente 10 perguntas inéditas. Se houver erro, 
 - requisitos do módulo cobertos;
 - README e Study Guide completos;
 - material público útil para outro desenvolvedor;
-- proprietário confirmou conclusão do ciclo de estudo.
+- proprietário confirmou que o material está útil para avançar, sem impedir revisões futuras.

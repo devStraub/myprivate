@@ -4,7 +4,7 @@ title: Metodologia de estudo AI-first
 type: methodology
 status: draft
 created: 2026-08-26
-updated: 2026-08-31
+updated: 2026-09-01
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -87,65 +87,52 @@ O papel humano é:
 - executar cenários preparados e, quando útil, variar somente entradas ou seletores simples;
 - prever resultados antes de executar quando possível;
 - explicar o sistema com as próprias palavras;
-- decidir quando está preparado para a avaliação.
+- consultar o material e o Tutor sempre que surgir uma dúvida, sem obrigação de encerrar definitivamente o tópico.
 
-### Codex — Examiner
+## Consulta contínua e revisão sob demanda
 
-Ao final da leitura guiada, o Codex gera aproximadamente 10 questões inéditas, preferencialmente distribuídas em:
+O estudo não utiliza prova, questionário obrigatório, nota, percentual de acerto ou ciclo formal de
+avaliação. O laboratório e sua documentação permanecem como material de consulta contínua.
 
-- ~3 de fundamentos;
-- ~4 de aplicação/raciocínio;
-- ~3 de cenários, failure modes e trade-offs.
+- dúvidas podem ser feitas a qualquer momento, inclusive depois de avançar para outro módulo;
+- o Tutor responde a partir do conceito, código, teste, saída ou fonte relacionada;
+- quando detectar confusão, o Tutor explica novamente por outro ângulo e indica o cenário pronto mais útil;
+- perguntas diagnósticas podem surgir naturalmente na conversa, mas não formam uma prova nem condição de avanço;
+- o proprietário decide quando avançar, revisar, pausar ou retomar um tópico;
+- uma dúvida posterior não invalida estudo anterior e deve ser tratada como parte normal do aprendizado.
 
-As perguntas devem testar modelo mental, não memorização literal. Trechos do próprio projeto podem ser usados como contexto.
-
-## Loop de validação do entendimento
+## Fluxo contínuo de aprendizado
 
 ```text
 Projeto gerado
 → Leitura guiada
-→ Explicação e experimentos
-→ ~10 questões
-→ 100% conceitualmente corretas?
-   ├─ sim → encerrar ciclo do módulo
-   └─ não → diagnosticar lacunas
-            → apontar exatamente o que reler/rodar
-            → estudo direcionado
-            → gerar novas questões inéditas apenas sobre as lacunas
-            → repetir até não restar lacuna detectada
+→ Cenários prontos e explicações
+→ Dúvidas e consultas sob demanda
+→ Avanço no ritmo escolhido pelo proprietário
+→ Retorno livre ao material sempre que necessário
 ```
 
-### Diagnóstico de erro
+### Tratamento de dúvidas
 
-Uma resposta incorreta não deve produzir apenas “errado”. O Codex deve registrar temporariamente:
+Quando houver uma dúvida ou interpretação incorreta, o Codex deve:
 
-- conceito não compreendido;
-- parte compreendida corretamente;
-- erro de raciocínio;
-- material exato a revisar;
-- arquivo/classe/teste/experimento do laboratório relacionado;
-- nova hipótese ou experimento que ajude a consolidar o entendimento.
+- preservar a parte já compreendida corretamente;
+- identificar o ponto exato da confusão sem transformar a conversa em prova;
+- explicar com linguagem ou modelo alternativo;
+- apontar o arquivo, classe, teste ou cenário relacionado;
+- propor uma observação simples que ajude a esclarecer o conceito;
+- manter a resposta disponível como material de consulta quando for útil consolidá-la.
 
-### Não repetição
+## O que pode ser registrado
 
-Dentro da sessão de avaliação, o Codex deve manter memória temporária das perguntas já utilizadas. Novas rodadas devem criar perguntas semanticamente diferentes; mudar apenas nomes ou números não conta como pergunta nova.
-
-### O que significa 100%
-
-100% significa **correção conceitual das questões realizadas**, não reprodução textual de uma resposta esperada. Terminologia imprecisa pode ser corrigida sem invalidar uma resposta cujo modelo mental esteja correto.
-
-## Avaliações não pertencem à telemetria permanente
-
-Não persistir na Toolbox:
+Não persistir como telemetria de estudo:
 
 - notas;
 - percentuais de acerto;
 - ranking;
-- histórico detalhado das perguntas;
-- quantidade de tentativas;
-- “nível” calculado a partir da prova.
-
-As avaliações são uma ferramenta privada de autorregulação. Quando o ciclo termina, o estado temporário pode ser descartado.
+- quantidade de dúvidas ou consultas;
+- “nível” calculado automaticamente;
+- inferências de domínio baseadas apenas na atividade do repositório.
 
 A Toolbox pode registrar fatos de estado e evidência, por exemplo:
 
@@ -180,4 +167,4 @@ A meta é que outro desenvolvedor consiga estudar o repositório sem depender de
 
 ## Limite da delegação
 
-O Codex pode implementar, pesquisar, documentar, comparar e explicar. Ele não pode transformar sua própria geração em evidência automática de compreensão humana. A conclusão do estudo continua sendo uma decisão do proprietário depois do ciclo de leitura, questionamento e avaliação.
+O Codex pode implementar, pesquisar, documentar, comparar e explicar. Ele não pode transformar sua própria geração em evidência automática de compreensão humana. O proprietário decide quando avançar ou registrar uma conclusão, mantendo o direito de consultar e revisar o material indefinidamente.

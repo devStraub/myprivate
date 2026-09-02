@@ -5,7 +5,7 @@ type: curriculum-module
 status: draft
 curriculum_state: planned
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-01
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -48,7 +48,7 @@ O nome é sugestão; o requisito é preservar o objetivo pedagógico e a rastrea
 
 ## Requisitos pedagógicos
 
-O Codex deve produzir implementação funcional, testes, comentários didáticos, README e `STUDY_GUIDE.md`. O proprietário deve percorrer o código seguindo o fluxo, questionar decisões, executar experimentos relevantes e completar o loop privado de avaliação descrito em [`../learning-methodology.md`](../learning-methodology.md).
+O Codex deve produzir implementação funcional, testes, comentários didáticos, README e `STUDY_GUIDE.md`. O proprietário deve percorrer o código seguindo o fluxo, questionar decisões, executar os cenários relevantes e consultar o material livremente sempre que surgir uma dúvida, conforme [`../learning-methodology.md`](../learning-methodology.md).
 
 Não existe carga horária mínima nem exigência de autoria manual do código.
 
@@ -58,7 +58,7 @@ Não existe carga horária mínima nem exigência de autoria manual do código.
 - `studied` depende da confirmação humana após o ciclo de estudo;
 - `applied` exige o laboratório público cobrindo os requisitos;
 - `professional` exige evidência profissional distinta e sanitizada;
-- score de avaliação não é persistido.
+- não há prova, score ou condição obrigatória de aprovação; dúvidas e revisões podem ocorrer a qualquer momento.
 
 ## Referências acadêmicas relacionadas
 

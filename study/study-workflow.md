@@ -4,7 +4,7 @@ title: AI-First Study Workflow
 type: workflow
 status: draft
 created: 2026-08-23
-updated: 2026-08-31
+updated: 2026-09-01
 agents:
   - provider: openai
     model: unknown
@@ -32,7 +32,7 @@ origin: ai-assisted
 
 ## Purpose
 
-Turn a curriculum module, approved backlog item, source, or real problem into verified understanding and reusable evidence without confusing AI output with human learning.
+Turn a curriculum module, approved backlog item, source, or real problem into useful understanding and reusable reference material without confusing AI output with human learning.
 
 There is no required weekly cadence. Capture may continue for any period; consolidation happens when the owner chooses.
 
@@ -42,12 +42,12 @@ There is no required weekly cadence. Capture may continue for any period; consol
 2. **Inspect** existing knowledge, sources, decisions, gaps, and prior evidence before generating new material.
 3. **Source** claims with primary material whenever practical and register relevant provenance.
 4. **Build** a minimal executable lab, tests, documentation, study guide, and ready-to-run contrasting scenarios when the subject benefits from application.
-5. **Study** by reading the material, questioning it, and changing experiments or code.
-6. **Tutor** through explanation, counterexamples, alternative models, and targeted exercises.
-7. **Assess privately** with approximately ten unique conceptual questions balanced across fundamentals, application, and scenarios.
-8. **Diagnose gaps** from wrong or shallow answers and repeat targeted study with new questions.
-9. **Confirm** the resulting state and evidence with the owner; never promote automatically.
-10. **Consolidate** useful material into knowledge, decisions, sessions, profile evidence, or a public sanitized lab.
+5. **Study** by reading the material, running prepared scenarios, and asking questions.
+6. **Tutor** through explanation, counterexamples, alternative models, and direct links to code or evidence.
+7. **Consult continuously** whenever a doubt appears, without a mandatory exam or module-closing ritual.
+8. **Revisit** specific material and scenarios when useful, even after moving to another topic.
+9. **Confirm** any resulting state or evidence with the owner; never promote automatically.
+10. **Consolidate** useful material into knowledge, decisions, sessions, profile evidence, or a public sanitized lab when the owner requests it.
 
 ## Selection and scouting
 
@@ -72,22 +72,18 @@ Creates the smallest useful lab, tests, README, supporting documentation, and `S
 
 Explains concepts, asks diagnostic questions, proposes experiments, and adapts the next explanation to observed gaps.
 
-### Examiner
-
-Runs a temporary private assessment using new questions for each cycle. It checks conceptual correctness rather than exact wording.
-
 The same agent may perform multiple roles, but the output of any role remains AI-generated material until the owner reviews it.
 
-See [learning-methodology.md](learning-methodology.md) for the complete role and assessment rules.
+See [learning-methodology.md](learning-methodology.md) for the complete roles and continuous-consultation rules.
 
-## Private assessment protocol
+## Continuous consultation protocol
 
-- Use approximately ten questions: roughly three fundamentals, four application questions, and three scenarios.
-- Do not reuse questions during remediation.
-- Diagnose the concept behind each relevant error.
-- Continue with targeted explanations and new questions until no material conceptual gaps remain or the owner stops the cycle.
-- Do not persist grades, percentages, rankings, attempt counts, or full question-and-answer history.
-- Persist only useful conclusions: confirmed state, identified gaps, decisions, follow-up items, and approved evidence.
+- Answer doubts at the point where they arise, using the smallest relevant portion of the material.
+- Relate explanations to a prepared scenario, test, source, or code path whenever possible.
+- Offer a different explanation or counterexample when the first model is insufficient.
+- Do not impose a fixed question set, score, pass condition, or attempt count.
+- Allow topics to remain open and revisitable indefinitely.
+- Persist only useful, owner-approved conclusions, decisions, follow-up items, and evidence.
 
 ## Knowledge handling classification
 

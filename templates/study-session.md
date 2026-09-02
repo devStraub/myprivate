@@ -50,9 +50,9 @@ visibility: private
 
 <Procedimento, resultado observado e limitações.>
 
-## Validação do entendimento
+## Clareza atual e dúvidas abertas
 
-<Perguntas respondidas, contraexemplos e pontos ainda frágeis.>
+<O que ficou claro, quais dúvidas permanecem e onde consultar ou retomar o assunto. Não registrar nota ou prova.>
 
 ## Classificação do aprendizado
 

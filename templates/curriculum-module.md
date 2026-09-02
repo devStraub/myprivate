@@ -47,7 +47,7 @@ Explique que modelo mental ou capacidade de engenharia este módulo precisa dese
 - `STUDY_GUIDE.md`;
 - testes;
 - experimentos/failure modes quando aplicáveis;
-- avaliação privada iterativa sem score persistido.
+- consulta contínua ao material, sem prova, score ou condição obrigatória de aprovação.
 
 ## Evidência e estado
 
