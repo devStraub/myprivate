@@ -4,7 +4,7 @@ title: Captura portátil e consolidação sob demanda
 type: policy
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-02
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -26,6 +26,7 @@ Permite usar uma cópia da Toolbox em mídia removível e acumular propostas em 
 - O dispositivo externo opera em modo **append-only**: cria capturas novas, sem editar ou apagar documentos consolidados.
 - Uma correção de captura é um novo arquivo relacionado ao anterior; não reescreve silenciosamente o original.
 - Todo conteúdo profissional é abstraído e sanitizado antes da primeira gravação na mídia pessoal.
+- `plan.md`, backups, diffs, logs e telemetria operacional bruta nunca são copiados para a mídia portátil.
 - Captura não é incorporação: itens permanecem `draft`, `review_state: pending` e inelegíveis como evidência até revisão.
 - Git é necessário somente na máquina de consolidação; a captura externa não depende dele.
 

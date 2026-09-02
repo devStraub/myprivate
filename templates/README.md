@@ -4,7 +4,7 @@ title: Templates
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-26
+updated: 2026-09-02
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -25,8 +25,11 @@ visibility: private
 | [`case.md`](case.md) | Experiência real sanitizada |
 | [`decision.md`](decision.md) | Escolha e trade-offs com memória histórica |
 | [`source.md`](source.md) | Avaliação de fonte externa |
-| [`study-session.md`](study-session.md) | Sessão de estudo e validação de entendimento |
+| [`study-session.md`](study-session.md) | Sessão de estudo, clareza atual e dúvidas abertas |
 | [`work-learning.md`](work-learning.md) | Proposta sanitizada extraída de trabalho |
+| [`ai-work-plan.md`](ai-work-plan.md) | Estrutura obrigatória do `plan.md` no ambiente autorizado de trabalho |
+| [`ai-work-backup-manifest.md`](ai-work-backup-manifest.md) | Manifesto local dos arquivos preservados antes da alteração |
+| [`ai-work-telemetry.jsonl`](ai-work-telemetry.jsonl) | Eventos operacionais mínimos, locais e estruturados |
 | [`scouting.md`](scouting.md) | Knowledge Scouting Session e material descoberto |
 | [`study-backlog.md`](study-backlog.md) | Item priorizável do backlog de estudo |
 | [`curriculum-module.md`](curriculum-module.md) | Novo módulo versionado do curriculum |

@@ -4,7 +4,7 @@ title: Política obrigatória de sanitização
 type: policy
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-02
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -32,6 +32,7 @@ Nunca incorporar:
 - regras de negócio confidenciais;
 - diagramas, arquitetura ou topologia proprietária identificável;
 - métricas, volumes, datas ou combinações de detalhes que permitam reidentificação;
+- `plan.md`, inventários de backup, telemetria operacional, diffs e listas de caminhos produzidos no ambiente corporativo;
 - conteúdo protegido ou qualquer material cuja propriedade pessoal seja duvidosa.
 
 Redação não é sanitização suficiente quando relações, sequência de eventos ou detalhes raros ainda identificam a origem.
@@ -80,5 +81,9 @@ Não registrar um cliente e endpoint específicos. Registrar: “Em integraçõe
 ## Conduta do agente
 
 Se encontrar conteúdo potencialmente confidencial, interrompa sua incorporação, aponte apenas a categoria do risco sem repetir o segredo e solicite revisão humana. Nunca use a Toolbox como justificativa para extrair conteúdo de ambiente corporativo.
+
+Backups e telemetria podem existir no ambiente corporativo autorizado para recuperação e rastreabilidade,
+mas são artefatos operacionais brutos. A Toolbox recebe apenas uma nova síntese abstrata e sanitizada;
+ela nunca recebe cópia, exportação ou simples redação automática desses arquivos.
 
 Scouting motivado por trabalho deve receber apenas o tema generalizado. A pesquisa não pode incluir nomes, trechos, arquitetura ou indicadores do caso de origem; o vínculo com um case deve permanecer sanitizado e aprovado.

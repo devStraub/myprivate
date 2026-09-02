@@ -4,7 +4,7 @@ title: Trabalho
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-02
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -21,6 +21,8 @@ visibility: private
 Processo para consultar a Toolbox durante demandas e propor aprendizados seguros ao final.
 
 - [`work-workflow.md`](work-workflow.md): execução, validação e extração.
+- [`ai-assisted-development.md`](ai-assisted-development.md): briefing, plano, backup, telemetria e drafts ao trabalhar com Copilot ou outro agente.
+- [`copilot-start-prompt.md`](copilot-start-prompt.md): instrução curta para iniciar uma demanda no ambiente de trabalho.
 - [`intake/`](intake/README.md): propostas temporárias já abstraídas e sanitizadas.
 
 Nunca use este diretório para armazenar ticket, código, log, payload ou documentação corporativa. A abstração deve ocorrer antes da escrita na Toolbox.

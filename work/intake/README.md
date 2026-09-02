@@ -4,7 +4,7 @@ title: Intake de aprendizados do trabalho
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-02
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -29,6 +29,7 @@ visibility: private
 - rejeite propostas que ainda permitam reidentificação;
 - após aprovação, incorpore na fonte canônica e preserve a decisão conforme o processo definido pelo proprietário;
 - intake não conta como evidência de competência nem conhecimento validado.
+- nunca copie `plan.md`, backups, diffs, telemetria JSONL ou logs brutos para intake; gere um draft novo já generalizado.
 
 Uma proposta pode indicar uma lacuna de estudo, mas só deve apontar para scouting/backlog após generalização, sanitização e aprovação. O item de estudo não herda detalhes do caso profissional.
 

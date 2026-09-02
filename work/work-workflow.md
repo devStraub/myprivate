@@ -4,7 +4,7 @@ title: Workflow de trabalho
 type: workflow
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-02
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -29,12 +29,14 @@ Receber demanda → Entender problema → Consultar Toolbox
 
 ## Durante a demanda
 
-1. Entenda objetivo, esperado versus observado, restrições e evidências disponíveis.
-2. Consulte somente áreas, stacks, playbooks e documentos relevantes.
-3. Registre assumptions; não transforme contexto corporativo em conteúdo da Toolbox.
-4. Deixe o agente investigar e propor, mantendo direção e responsabilidade humanas.
-5. Aplique [`../VALIDATION.md`](../VALIDATION.md) antes da implementação e novamente sobre os resultados.
-6. Preserve evidências no sistema autorizado de trabalho, não na Toolbox pessoal.
+1. Receba um descritivo explícito da implementação e transforme-o em `plan.md` antes de alterar arquivos.
+2. Prepare backup recuperável e telemetria operacional conforme [`ai-assisted-development.md`](ai-assisted-development.md).
+3. Entenda objetivo, esperado versus observado, restrições e evidências disponíveis.
+4. Consulte somente áreas, stacks, playbooks e documentos relevantes.
+5. Registre assumptions; não transforme contexto corporativo em conteúdo da Toolbox.
+6. Deixe o agente investigar e propor, mantendo direção e responsabilidade humanas.
+7. Aplique [`../VALIDATION.md`](../VALIDATION.md) antes da implementação e novamente sobre os resultados.
+8. Preserve plano, backups, telemetria e evidências brutas no sistema autorizado de trabalho, não na Toolbox pessoal.
 
 ## Ao concluir
 
