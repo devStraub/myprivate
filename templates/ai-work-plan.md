@@ -89,4 +89,3 @@ Use somente `pending`, `in_progress`, `completed` ou `blocked`. Mantenha no máx
 - Limitações: <resumo>
 - Riscos residuais: <resumo>
 - Draft sanitizado sugerido: <sim/não; nunca anexar artefatos brutos>
-

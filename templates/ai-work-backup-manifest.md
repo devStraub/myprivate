@@ -30,4 +30,3 @@
 - Excluído: `<categoria e motivo; não repetir secret ou conteúdo>`
 - Retenção: `<política ou decisão aplicável>`
 - Restauração exige confirmação humana: `sim`
-
