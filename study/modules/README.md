@@ -23,7 +23,7 @@ Cada arquivo define objetivo, tópicos, requisitos do laboratório público e re
 | ID | Módulo | Laboratório sugerido |
 | --- | --- | --- |
 | 00 | [Engineering Lab Base](00-engineering-lab-base.md) | `developer-lab-base` |
-| 01 | [Computer Science Foundations](01-computer-science-foundations.md) | `lab-computer-science-foundations` |
+| 01 | [Computer Science Foundations](01-computer-science-foundations.md) | Explicações e notas de conhecimento; laboratório opcional |
 | 02 | [Algorithms & Data Structures](02-algorithms-data-structures.md) | `lab-algorithms-data-structures` |
 | 03 | [Programming Languages & JVM](03-programming-languages-jvm.md) | `lab-java-jvm` |
 | 04 | [Concurrency & Parallelism](04-concurrency-parallelism.md) | `lab-java-concurrency` |
