@@ -30,6 +30,26 @@ Uma segunda consequência é:
 
 Os laboratórios públicos devem servir simultaneamente como ambiente de estudo, evidência prática e material de consulta para outros desenvolvedores.
 
+## Escolha do formato de estudo
+
+A explicação direta, correlacionada com situações já conhecidas pelo proprietário, é o formato padrão.
+Não existe obrigação de criar um projeto, repositório ou laboratório para cada módulo ou tópico.
+
+Antes de implementar, o Codex deve escolher o menor formato que produza entendimento útil:
+
+1. **Explicação direta:** conceitos, modelos mentais, exemplos cotidianos e relações com código já conhecido.
+2. **Trecho ou cenário isolado:** quando poucas linhas tornam um comportamento observável.
+3. **Uso de projeto existente:** quando o conceito já aparece em um laboratório ou aplicação disponível.
+4. **Novo laboratório:** somente quando execução, comparação, integração ou failure modes justificarem o custo.
+
+Preferir explicação direta quando o tema for principalmente terminologia, reconhecimento de padrões ou
+formalização de algo que o proprietário já utiliza. Criar um laboratório quando o comportamento não puder
+ser compreendido com clareza suficiente por exemplos pequenos, quando houver valor real de experimentação
+ou quando o proprietário solicitar evidência pública aplicada.
+
+Um módulo pode ser estudado e consultado sem possuir repositório próprio. A ausência de projeto não reduz
+o valor do entendimento; apenas significa que não há evidência pública de aplicação associada àquele escopo.
+
 ## Papéis
 
 ### Codex — Builder
@@ -37,7 +57,7 @@ Os laboratórios públicos devem servir simultaneamente como ambiente de estudo,
 Para cada módulo, o Codex deve:
 
 1. ler a especificação do módulo;
-2. escolher o menor laboratório capaz de demonstrar os requisitos;
+2. decidir se uma explicação, cenário isolado, projeto existente ou novo laboratório é o menor formato suficiente;
 3. reutilizar `developer-lab-base` quando isso reduzir ruído, sem forçar o mesmo domínio em assuntos que pedem outro formato;
 4. implementar código funcional, testes e cenários de falha relevantes;
 5. comentar todo trecho relevante de forma didática, explicando **por quê**, comportamento, riscos e trade-offs;
@@ -66,7 +86,7 @@ pedagógico. Nesse caso, devem ser opcionais e posteriores à compreensão do ce
 
 ### Codex — Tutor
 
-Depois da implementação, o Codex deve conduzir o estudo do próprio laboratório:
+Depois da explicação ou implementação, o Codex deve conduzir o estudo do material escolhido:
 
 - explicar a arquitetura geral antes dos detalhes;
 - definir uma ordem de leitura dos arquivos;

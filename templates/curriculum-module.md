@@ -29,15 +29,15 @@ Explique que modelo mental ou capacidade de engenharia este módulo precisa dese
 - tópico;
 - tópico.
 
-## Projeto público sugerido
+## Formato sugerido
 
-`lab-example`
+Escolha entre explicação direta, cenário isolado, uso de projeto existente ou novo laboratório.
 
-## Requisitos mínimos do laboratório
+## Requisitos práticos, quando necessários
 
-- requisito observável;
-- teste/experimento obrigatório;
-- trade-off que precisa ser explicado.
+- comportamento ou conceito observável;
+- cenário pronto quando a execução agregar valor;
+- trade-off que precisa ser explicado;
 
 ## Requisitos pedagógicos
 

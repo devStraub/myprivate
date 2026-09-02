@@ -41,7 +41,7 @@ There is no required weekly cadence. Capture may continue for any period; consol
 1. **Choose** a module or approved study item from the curriculum, backlog, scouting review, or current need.
 2. **Inspect** existing knowledge, sources, decisions, gaps, and prior evidence before generating new material.
 3. **Source** claims with primary material whenever practical and register relevant provenance.
-4. **Build** a minimal executable lab, tests, documentation, study guide, and ready-to-run contrasting scenarios when the subject benefits from application.
+4. **Choose the smallest format**: direct explanation first; use a snippet, existing project, or new executable lab only when it materially improves understanding or evidence.
 5. **Study** by reading the material, running prepared scenarios, and asking questions.
 6. **Tutor** through explanation, counterexamples, alternative models, and direct links to code or evidence.
 7. **Consult continuously** whenever a doubt appears, without a mandatory exam or module-closing ritual.

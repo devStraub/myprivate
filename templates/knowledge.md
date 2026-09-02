@@ -49,9 +49,9 @@ visibility: private
 
 <Sintomas que indicam aplicação inadequada.>
 
-## Perguntas para validação
+## Dúvidas para consulta futura
 
-- <Pergunta que testa entendimento ou aplicabilidade.>
+- <Pergunta aberta, detalhe que pode precisar ser retomado ou ponto de consulta recorrente.>
 
 ## Exemplos abstratos
 

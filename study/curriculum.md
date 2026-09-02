@@ -56,6 +56,10 @@ The curriculum has no mandatory weekly hours, semester boundaries, or artificial
 
 Prepared material is only a study asset. It does not prove that the owner studied, understood, applied, or professionally used the topic.
 
+A module does not require its own project. Direct explanations and reusable knowledge notes are sufficient
+when they make the concepts clear. Labs are optional instruments for observability or public applied evidence,
+not mandatory containers for every topic.
+
 ### Phase B — Study, Understanding, and Public Evidence
 
 1. Study the prepared material through reading, questions, and experiments.
