@@ -32,5 +32,7 @@ Alterações relevantes da estrutura e das políticas. A evolução detalhada de
 - Fluxo portátil `.ai-work/` com plano, backups, telemetria, validação e limpeza protegida.
 - Utilitários PowerShell e adaptadores opcionais para instruções e prompts do GitHub Copilot.
 - Roteamento adaptativo entre planner, executor, validator e reviewer, com recomendação de Luna ou Sol baseada em risco e complexidade.
+- Princípio pessoal de simplicidade explícita, inspirado pelo Zen do Python e aplicado transversalmente a agentes e decisões técnicas.
+- Facilidade de explicação adotada como heurística de design, legibilidade e revisão de código.
 
 > Esta entrada permanece não publicada e em `draft` até revisão humana e commit aprovado.
