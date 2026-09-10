@@ -50,6 +50,9 @@ visibility: private
 
 - [ ] O diff contém somente arquivos esperados?
 - [ ] A solução mais simples suficiente foi escolhida?
+- [ ] Um desenvolvedor familiarizado com a linguagem entende rapidamente intenção, fluxo e falhas?
+- [ ] Alguma explicação longa está compensando nomes ruins, funções extensas ou responsabilidades misturadas?
+- [ ] Os comentários explicam motivos e restrições, em vez de apenas traduzir o que o código faz?
 - [ ] Há busca repetida, N+1, carga excessiva ou processamento que deveria ficar no banco?
 - [ ] Contratos públicos, compatibilidade e migração foram considerados?
 - [ ] Concorrência, idempotência, transações e retries importam neste caso?

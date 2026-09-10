@@ -29,4 +29,10 @@ visibility: private
 | [Secure Software Development Framework](https://csrc.nist.gov/projects/ssdf) | NIST | 2026-09-02 | Validação, segurança de desenvolvimento e linguagem comum para evidências | Deve ser adaptado ao processo da organização |
 | [Gitleaks](https://github.com/gitleaks/gitleaks) | Projeto Gitleaks | 2026-09-02 | Verificação opcional de segredos em arquivos e repositórios | Não detecta toda informação corporativa ou reidentificável |
 
+## Princípios de engenharia
+
+| Fonte | Organização | Consultada em | Escopo sustentado | Limitações |
+| --- | --- | --- | --- | --- |
+| [PEP 20 — The Zen of Python](https://peps.python.org/pep-0020/) | Python Software Foundation | 2026-09-03 | Inspiração para simplicidade, explicitude, legibilidade e tratamento de ambiguidade | A Toolbox generaliza os princípios para além de Python; não os trata como regras absolutas |
+
 Ao adicionar, informe produto/especificação, versão, organização responsável, publicação ou atualização conhecida, data de consulta, escopo sustentado e limitações. “Oficial” não garante aplicabilidade à versão ou ao contexto analisado.

@@ -20,6 +20,7 @@ visibility: private
 
 1. Entenda a solicitação e carregue apenas os índices e documentos relevantes; não leia a Toolbox inteira por padrão.
 2. Leia [`PRINCIPLES.md`](PRINCIPLES.md). Ao solucionar problemas, aplique [`VALIDATION.md`](VALIDATION.md).
+   Comece pela menor solução coerente, mantenha intenção e falhas explícitas e justifique complexidade adicional.
 3. Em qualquer contexto profissional, obedeça [`governance/sanitization.md`](governance/sanitization.md); em dúvida, não registre.
 4. Pesquise conhecimento existente antes de propor algo novo. Prefira atualizar a fonte canônica a duplicá-la.
 5. Diferencie fato, hipótese, experiência, opinião e conclusão assistida por IA. Não trate afirmação de outro LLM como validação.
