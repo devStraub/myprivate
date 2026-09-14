@@ -3,9 +3,9 @@ id: curriculum-algorithms-data-structures
 title: 02 — Algorithms & Data Structures
 type: curriculum-module
 status: draft
-curriculum_state: planned
+curriculum_state: studied
 created: 2026-08-26
-updated: 2026-09-01
+updated: 2026-09-03
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -13,7 +13,7 @@ agents:
     role: structure
     date: 2026-08-26
 sources: []
-related: [../curriculum.md, ../learning-methodology.md, ../public-labs.md]
+related: [../curriculum.md, ../learning-methodology.md, ../../knowledge/algorithms-data-structures-practical.md]
 visibility: private
 ---
 
@@ -39,18 +39,14 @@ Escolher, implementar e analisar estruturas e algoritmos por comportamento e tra
 - Big O, Big Ω e Big Θ;
 - time/space complexity e amortized analysis;
 
-## Projeto público sugerido
+## Formato adotado
 
-`lab-algorithms-data-structures`
+Explicações diretas, exemplos mínimos e correlação com decisões comuns de aplicações Java e bancos de
+dados. A síntese consultável está em
+[`../../knowledge/algorithms-data-structures-practical.md`](../../knowledge/algorithms-data-structures-practical.md).
 
-O nome é sugestão; o requisito é preservar o objetivo pedagógico e a rastreabilidade com este módulo.
-
-## Requisitos mínimos do laboratório
-
-- implementações próprias de estruturas/algoritmos selecionados;
-- testes de corretude;
-- benchmarks comparativos;
-- README explica escolhas por cenário em vez de declarar vencedor universal;
+Não há necessidade atual de um repositório próprio para este módulo. Um experimento pode ser criado no
+futuro somente quando uma dúvida concreta exigir observação de comportamento, custo ou escala.
 
 
 ## Requisitos pedagógicos
@@ -63,7 +59,7 @@ Não existe carga horária mínima nem exigência de autoria manual do código.
 
 - material preparado pode ser consultado como parte da trilha;
 - `studied` depende da confirmação humana após o ciclo de estudo;
-- `applied` exige o laboratório público cobrindo os requisitos;
+- `applied` permanece opcional e exige evidência prática apropriada se o proprietário decidir produzi-la;
 - `professional` exige evidência profissional distinta e sanitizada;
 - não há prova, score ou condição obrigatória de aprovação; dúvidas e revisões podem ocorrer a qualquer momento.
 

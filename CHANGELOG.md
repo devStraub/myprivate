@@ -34,5 +34,6 @@ Alterações relevantes da estrutura e das políticas. A evolução detalhada de
 - Roteamento adaptativo entre planner, executor, validator e reviewer, com recomendação de Luna ou Sol baseada em risco e complexidade.
 - Princípio pessoal de simplicidade explícita, inspirado pelo Zen do Python e aplicado transversalmente a agentes e decisões técnicas.
 - Facilidade de explicação adotada como heurística de design, legibilidade e revisão de código.
+- Módulo 02 concluído conceitualmente e consolidado como referência prática de algoritmos e estruturas de dados.
 
 > Esta entrada permanece não publicada e em `draft` até revisão humana e commit aprovado.

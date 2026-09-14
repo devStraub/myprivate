@@ -4,7 +4,7 @@ title: Knowledge
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-09-01
+updated: 2026-09-03
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -23,6 +23,7 @@ Responde **“como isso funciona?”**. Contém conhecimento conceitual reutiliz
 ## Índice
 
 - [`graphs-state-machines-automata.md`](graphs-state-machines-automata.md): como relacionar grafos, máquinas de estados e autômatos com situações comuns de desenvolvimento.
+- [`algorithms-data-structures-practical.md`](algorithms-data-structures-practical.md): escolha prática de collections, algoritmos e complexidade, priorizando processamento na origem dos dados.
 
 Use [`../templates/knowledge.md`](../templates/knowledge.md). Antes de criar, pesquise este diretório, [`../areas/`](../areas/README.md) e [`../stacks/`](../stacks/README.md). Atualize a fonte canônica quando a pergunta principal for a mesma.
 
