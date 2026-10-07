@@ -4,7 +4,7 @@ title: Validação adversarial
 type: playbook
 status: draft
 created: 2026-08-23
-updated: 2026-08-26
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -45,6 +45,7 @@ Use este documento antes de considerar confiável uma explicação, decisão, co
 - Compatibilidade, migração e contratos públicos foram avaliados?
 - Failure modes, dependências e falhas parciais foram analisados?
 - A mudança preserva o que não deveria mudar?
+- O comportamento que deve mudar e o que deve permanecer foram convertidos em critérios observáveis?
 
 ## Testes e operação
 
@@ -53,6 +54,8 @@ Use este documento antes de considerar confiável uma explicação, decisão, co
 - Existe evidência em nível apropriado: unidade, integração, contrato ou sistema?
 - Rollout, rollback, reversibilidade e recuperação foram considerados?
 - A solução será observável depois da implantação?
+- Está claro o que foi apenas configurado, efetivamente executado, observado e humanamente aprovado?
+- Gates indisponíveis possuem pendência e responsável, sem conclusão presumida?
 
 ## Contestação da solução
 
@@ -81,6 +84,18 @@ Use este documento antes de considerar confiável uma explicação, decisão, co
 - Conteúdo profissional foi sanitizado antes da primeira gravação?
 - A importação evita sobrescrita e detecta IDs iguais com conteúdo divergente?
 - A consolidação foi solicitada pelo proprietário, sem assumir periodicidade?
+
+## Agente especialista
+
+- O agente foi usado somente dentro do escopo declarado?
+- Fontes, versões, vigência e data de consulta foram confirmadas?
+- Regra oficial, interpretação, evidência observada e recomendação estão separadas?
+- A análise distingue `não implementado` de `não comprovado`?
+- Mudança de fonte preservou histórico e período de transição?
+- O relatório profissional detalhado permaneceu no ambiente autorizado?
+- Aprendizagem ou experiência só avançaram após uso, evidência, sanitização e aprovação humana?
+- Respostas sobre o estado do produto informam fonte, escopo, última verificação e desconhecidos?
+- Uma lacuna regulatória foi confirmada pelo especialista de domínio e por evidência técnica antes de ser declarada implementável?
 
 ## Evidência de saída
 

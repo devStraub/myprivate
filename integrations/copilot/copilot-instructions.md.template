@@ -11,3 +11,12 @@
 - Pare diante de segredo, mudança destrutiva, requisito contraditório ou expansão material de escopo.
 - Ao final, produza apenas um draft abstrato e sanitizado quando houver aprendizado reutilizável.
 - A aprovação e a consolidação do draft são exclusivamente humanas.
+- Quando a demanda envolver Pix, DICT ou MED, leia
+  `<CAMINHO_DA_TOOLBOX>/agents/pix-dict-med-specialist/SKILL.md`, confirme versão/vigência nas fontes
+  oficiais e mantenha a matriz detalhada de aderência somente em `.ai-work/` no projeto.
+- Para análise técnica, revisão de implementação ou preparação de contexto, leia
+  `<CAMINHO_DA_TOOLBOX>/agents/software-development-specialist/SKILL.md`. Combine especialistas por
+  responsabilidade; não permita que o especialista técnico invente regra de negócio.
+- Para descobrir serviços, consultar o estado funcional ou analisar impactos entre regras e produto,
+  leia `<CAMINHO_DA_TOOLBOX>/agents/product-owner-specialist/SKILL.md`. Use somente a base corporativa
+  autorizada; não copie o conhecimento real do projeto para a Toolbox pessoal.

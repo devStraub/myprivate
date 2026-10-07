@@ -4,7 +4,7 @@ title: Trabalho
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-09-02
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -12,7 +12,7 @@ agents:
     role: structure
     date: 2026-08-23
 sources: []
-related: [work-workflow.md, intake/README.md, ../governance/sanitization.md]
+related: [work-workflow.md, intake/README.md, project-knowledge-base.md, ../governance/sanitization.md]
 visibility: private
 ---
 
@@ -24,10 +24,14 @@ Processo para consultar a Toolbox durante demandas e propor aprendizados seguros
 - [`ai-assisted-development.md`](ai-assisted-development.md): briefing, plano, backup, telemetria e drafts ao trabalhar com Copilot ou outro agente.
 - [`agent-routing.md`](agent-routing.md): escolha adaptativa entre planner, executor, validator e reviewer.
 - [`copilot-start-prompt.md`](copilot-start-prompt.md): instrução curta para iniciar uma demanda no ambiente de trabalho.
+- [`project-knowledge-base.md`](project-knowledge-base.md): separação e manutenção da visão persistente dos serviços no ambiente corporativo.
 - [`../tools/`](../tools/README.md): inicialização, backup, validação e limpeza segura de `.ai-work/`.
 - [`../integrations/copilot/`](../integrations/copilot/README.md): adaptadores opcionais reconhecidos pelo Copilot.
 - [`intake/`](intake/README.md): propostas temporárias já abstraídas e sanitizadas.
 
 Nunca use este diretório para armazenar ticket, código, log, payload ou documentação corporativa. A abstração deve ocorrer antes da escrita na Toolbox.
+
+A base real de serviços, capacidades e fluxos usada pelo agente PO permanece em local corporativo
+autorizado. Ela não é armazenada neste diretório nem removida junto com `.ai-work/`.
 
 Em uma cópia portátil, consulte o material consolidado e crie somente propostas novas em intake. A importação e a consolidação seguem [`../governance/portable-capture.md`](../governance/portable-capture.md) e não possuem periodicidade fixa.

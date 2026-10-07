@@ -4,7 +4,7 @@ title: Templates
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-09-02
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -34,6 +34,11 @@ visibility: private
 | [`study-backlog.md`](study-backlog.md) | Item priorizável do backlog de estudo |
 | [`curriculum-module.md`](curriculum-module.md) | Novo módulo versionado do curriculum |
 | [`public-study-lab.md`](public-study-lab.md) | Especificação de laboratório público e didático |
+| [`agent-use.md`](agent-use.md) | Uso de agente como candidato a evidência de aprendizagem ou experiência |
+| [`project-knowledge-index.md`](project-knowledge-index.md) | Índice corporativo de serviços, capacidades, fluxos e cobertura |
+| [`service-knowledge.md`](service-knowledge.md) | Conhecimento verificável de um serviço no ambiente autorizado |
+| [`project-flow.md`](project-flow.md) | Fluxo de ponta a ponta entre serviços, regras e evidências |
+| [`regulatory-gap.md`](regulatory-gap.md) | Lacuna candidata criada pelo cruzamento entre regra e estado atual |
 
 ## Uso
 

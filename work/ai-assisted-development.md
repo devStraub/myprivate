@@ -4,7 +4,7 @@ title: Desenvolvimento profissional assistido por IA
 type: workflow
 status: draft
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -17,6 +17,8 @@ related:
   - ../governance/sanitization.md
   - ../governance/portable-capture.md
   - ../checklists/ai-assisted-change.md
+  - ../agents/software-development-specialist/SKILL.md
+  - project-knowledge-base.md
 visibility: private
 ---
 
@@ -64,6 +66,12 @@ O briefing deve esclarecer, quando disponível:
 Antes de seguir, aplique o [`roteamento de agentes`](agent-routing.md). Classifique escopo, ambiguidade,
 impacto, diagnóstico e validação. Se o agente atual não for adequado, recomende outro com motivo concreto,
 papel esperado e ponto de retorno. A troca depende de decisão humana.
+
+Para mapear o projeto, converter regras em critérios técnicos, revisar evidências ou preparar contexto
+para outro agente, use o
+[`especialista em desenvolvimento`](../agents/software-development-specialist/SKILL.md). Quando existir
+especialista de domínio aplicável, combine os dois sem permitir que um substitua a responsabilidade do
+outro.
 
 ### 2. Criar `plan.md`
 
@@ -159,6 +167,10 @@ Depois da implementação concluída e aceita, extraia primeiro o aprendizado pe
 o caminho absoluto, confirme que ele pertence ao projeto atual, verifique que não contém arquivos de
 produto e registre no encerramento que a limpeza foi realizada. Não remova os artefatos enquanto houver
 validação, rollback ou aprovação pendente, salvo determinação expressa da política corporativa.
+
+Quando existir uma base corporativa persistente do projeto, uma mudança aceita pode atualizar serviços,
+capacidades e fluxos conforme [`project-knowledge-base.md`](project-knowledge-base.md). Essa atualização é
+separada da limpeza de `.ai-work/` e não autoriza copiar a base para a Toolbox.
 
 Use [`../checklists/ai-assisted-change.md`](../checklists/ai-assisted-change.md) como revisão final.
 

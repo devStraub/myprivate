@@ -4,7 +4,7 @@ title: APIs
 type: area-index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-14
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -20,7 +20,7 @@ visibility: private
 
 ## Knowledge · Patterns · Cases · Decisions · Sources
 
-Nenhum item relacionado registrado.
+- [`Preservação de intenção em atualizações parciais`](../patterns/partial-update-intent.md)
 
 ## Rotas iniciais
 

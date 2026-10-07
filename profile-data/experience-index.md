@@ -26,3 +26,7 @@ Nenhuma experiência foi registrada na v0.1.
 Não inclua empregador, cliente, projeto, ticket ou período que permita reidentificação. Cada linha deve apontar para evidência aprovada; descrições de IA sem validação não comprovam experiência.
 
 Uso operacional de material ainda não estudado não prova domínio do tema. Só registre aplicação profissional quando o case sanitizado e a revisão humana sustentarem essa afirmação.
+
+Uso de agente especialista pode apontar para uma experiência somente quando houver resultado observado,
+participação humana identificada e síntese sanitizada aprovada. O agente é apoio e artefato; não substitui
+a evidência da atividade.

@@ -4,7 +4,7 @@ title: Governança
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -12,7 +12,7 @@ agents:
     role: structure
     date: 2026-08-23
 sources: []
-related: [sanitization.md, knowledge-lifecycle.md, provenance.md, maintenance.md, portable-capture.md]
+related: [sanitization.md, knowledge-lifecycle.md, provenance.md, maintenance.md, portable-capture.md, agent-lifecycle.md]
 visibility: private
 ---
 
@@ -23,5 +23,6 @@ visibility: private
 - [`provenance.md`](provenance.md): metadados, origens, participação de IA e evidências.
 - [`maintenance.md`](maintenance.md): auditoria periódica e propostas de manutenção.
 - [`portable-capture.md`](portable-capture.md): captura append-only em mídia removível, importação segura e consolidação sob demanda.
+- [`agent-lifecycle.md`](agent-lifecycle.md): criação, atualização, uso e evidência de agentes especialistas.
 
 Em conflitos, confidencialidade e aprovação humana prevalecem. Em dúvida sobre propriedade ou permissão, não registrar.

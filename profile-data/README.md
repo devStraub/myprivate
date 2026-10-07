@@ -4,7 +4,7 @@ title: Dados estruturados de perfil
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-26
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -12,7 +12,7 @@ agents:
     role: structure
     date: 2026-08-23
 sources: []
-related: [../PROFILE.md, skills.md, experience-index.md, evidence-index.md]
+related: [../PROFILE.md, skills.md, experience-index.md, evidence-index.md, agent-history.md]
 visibility: private
 ---
 
@@ -23,6 +23,7 @@ visibility: private
 - [`skills.md`](skills.md): competências alegadas somente com natureza e evidência.
 - [`experience-index.md`](experience-index.md): experiências sanitizadas e sua utilização.
 - [`evidence-index.md`](evidence-index.md): evidências por tipo, área e status.
+- [`agent-history.md`](agent-history.md): agentes criados, revisados e usados, sem inferência automática de proficiência.
 
 ## Regras de consolidação
 
@@ -36,3 +37,4 @@ visibility: private
 - distinguir execução assistida por IA de base conceitual validada e aplicação autônoma demonstrada.
 - tratar laboratório público sanitizado como possível evidência de aplicação pessoal, nunca como prova automática de autoria manual, compreensão ou experiência profissional.
 - não persistir notas, percentuais, rankings ou histórico de avaliações privadas no perfil.
+- tratar criação de agente como artefato assistido; uso profissional só entra como experiência após evidência sanitizada e aprovação.

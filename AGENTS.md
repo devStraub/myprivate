@@ -4,7 +4,7 @@ title: Roteador para agentes
 type: agent-instructions
 status: draft
 created: 2026-08-23
-updated: 2026-09-02
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -35,5 +35,8 @@ visibility: private
 14. Backups, `plan.md` e telemetria bruta pertencem somente ao ambiente corporativo autorizado. Nunca os copie para a Toolbox, Git pessoal ou mídia removível; transfira apenas abstrações sanitizadas.
 15. Quando permitido, use os [`tools/`](tools/README.md) para aplicar o ciclo operacional e os adaptadores de [`integrations/`](integrations/README.md) para orientar o agente sem duplicar as regras canônicas.
 16. Antes de uma demanda profissional, aplique [`work/agent-routing.md`](work/agent-routing.md). Recomende outro agente somente quando função, risco ou complexidade justificarem; não troque modelo sem decisão humana.
+17. Em demandas de domínio cobertas por [`agents/`](agents/README.md), carregue somente o especialista relevante. Para Pix, DICT ou MED, use [`agents/pix-dict-med-specialist/SKILL.md`](agents/pix-dict-med-specialist/SKILL.md), confirme versão e vigência e mantenha a auditoria interna no ambiente autorizado.
+18. Para analisar projeto, validar implementação ou preparar contexto técnico para Copilot, use [`agents/software-development-specialist/SKILL.md`](agents/software-development-specialist/SKILL.md). Combine-o com o especialista de domínio quando a tarefa depender de regra de negócio.
+19. Para descobrir serviços, manter visão funcional do produto, responder sobre estado atual ou cruzar mudanças regulatórias com capacidades existentes, use [`agents/product-owner-specialist/SKILL.md`](agents/product-owner-specialist/SKILL.md). O conhecimento real do projeto permanece na base corporativa definida em [`work/project-knowledge-base.md`](work/project-knowledge-base.md).
 
-Rotas principais: conceitos em [`knowledge/`](knowledge/README.md), situações recorrentes em [`patterns/`](patterns/README.md), experiências sanitizadas em [`cases/`](cases/README.md), escolhas em [`decisions/`](decisions/README.md), descoberta em [`study/scouting/`](study/scouting/README.md), fila em [`study/backlog/`](study/backlog/README.md), estudo em [`study/`](study/README.md) e trabalho em [`work/`](work/README.md).
+Rotas principais: agentes especialistas em [`agents/`](agents/README.md), conceitos em [`knowledge/`](knowledge/README.md), situações recorrentes em [`patterns/`](patterns/README.md), experiências sanitizadas em [`cases/`](cases/README.md), escolhas em [`decisions/`](decisions/README.md), descoberta em [`study/scouting/`](study/scouting/README.md), fila em [`study/backlog/`](study/backlog/README.md), estudo em [`study/`](study/README.md) e trabalho em [`work/`](work/README.md).

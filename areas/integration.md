@@ -4,7 +4,7 @@ title: Integration
 type: area-index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-14
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -20,7 +20,10 @@ visibility: private
 
 ## Knowledge · Patterns · Cases · Decisions · Sources
 
-Nenhum item relacionado registrado.
+- [`Preservação de intenção em atualizações parciais`](../patterns/partial-update-intent.md)
+- [`Diagnóstico de falhas em fluxos distribuídos`](../playbooks/distributed-flow-diagnosis.md)
+- [`DICT e MED como domínio operacional do Pix`](../knowledge/pix-dict-med.md)
+- [`Agente especialista em Pix, DICT e MED`](../agents/pix-dict-med-specialist/SKILL.md)
 
 ## Rotas iniciais
 

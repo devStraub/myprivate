@@ -4,7 +4,7 @@ title: CI/CD
 type: stack-index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-14
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -22,7 +22,8 @@ visibility: private
 
 ## Knowledge · Patterns · Cases · Decisions · Sources
 
-Nenhum item relacionado registrado.
+- [`Mudança orientada por evidências`](../patterns/evidence-driven-change.md)
+- [`Remediação de dependências`](../checklists/dependency-remediation.md)
 
 ## Relações iniciais
 

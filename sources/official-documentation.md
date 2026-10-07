@@ -4,7 +4,7 @@ title: Documentação oficial e especificações
 type: source-index
 status: draft
 created: 2026-08-23
-updated: 2026-09-02
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -34,5 +34,15 @@ visibility: private
 | Fonte | Organização | Consultada em | Escopo sustentado | Limitações |
 | --- | --- | --- | --- | --- |
 | [PEP 20 — The Zen of Python](https://peps.python.org/pep-0020/) | Python Software Foundation | 2026-09-03 | Inspiração para simplicidade, explicitude, legibilidade e tratamento de ambiguidade | A Toolbox generaliza os princípios para além de Python; não os trata como regras absolutas |
+
+## Pix, DICT e MED
+
+| ID | Fonte | Organização | Versão/estado | Consultada em | Escopo sustentado | Limitações |
+| --- | --- | --- | --- | --- | --- | --- |
+| `bcb-pix-normas` | [Normas sobre o Pix](https://www.bcb.gov.br/estabilidadefinanceira/pix-normas) | Banco Central do Brasil | página corrente | 2026-10-06 | índice de regulamento, manuais e instruções | precisa ser reconsultada porque evolui |
+| `bcb-dict-manual-8-5` | [Manual Operacional do DICT](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Regulamento_Pix/X_ManualOperacionaldoDICT.pdf) | Banco Central do Brasil | 8.5 | 2026-10-06 | fluxos DICT, devolução, Recuperação de Valores e eventos | vigência fracionada por seção |
+| `bcb-dict-api-2-12-1` | [API do DICT](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/API-DICT.html) | Banco Central do Brasil | 2.12.1 | 2026-10-06 | contrato, schemas, autenticação, assinatura e rate limits | documentação online mutável |
+| `bcb-med-guide-4-1` | [Guia de implementação do MED](https://www.bcb.gov.br/content/estabilidadefinanceira/pix/Guia_MED.pdf) | Banco Central do Brasil | 4.1 | 2026-10-06 | orientação operacional do MED | não substitui regulamento/manual |
+| `bcb-med-faq` | [FAQ do MED](https://www.bcb.gov.br/meubc/faqs/p/o-que-e-e-como-funciona-o-mecanismo-especial-de-devolucao-med) | Banco Central do Brasil | atualizado em 2026-09-18 na consulta | 2026-10-06 | visão do usuário, prazo e não escopo | resumo, não contrato completo |
 
 Ao adicionar, informe produto/especificação, versão, organização responsável, publicação ou atualização conhecida, data de consulta, escopo sustentado e limitações. “Oficial” não garante aplicabilidade à versão ou ao contexto analisado.

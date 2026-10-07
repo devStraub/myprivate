@@ -15,9 +15,9 @@ learning_state: applied-professionally
 eligible_as_professional_evidence: false
 capture_id: 20260831-143743-triagem-dependencias-e7
 captured_at: 2026-08-31T17:37:43Z
-review_state: pending
-reviewed_at:
-consolidated_into: []
+review_state: consolidated
+reviewed_at: 2026-09-14
+consolidated_into: [../../checklists/dependency-remediation.md]
 agents:
   - provider: openai
     model: gpt-5.6-sol
@@ -34,10 +34,10 @@ related: [20260824-remediacao-dependencias.md, 20260828-migracao-coordenada-plat
 visibility: private
 sanitization:
   level: generalized
-  reviewed_on:
-  reviewed_by:
+  reviewed_on: 2026-09-14
+  reviewed_by: owner-supervised-consolidation
   reidentification_risk: low
-  approved: false
+  approved: true
 ---
 
 # Proposta de aprendizado: Triagem orientada aos achados acionáveis de relatórios de dependências
@@ -102,13 +102,13 @@ eliminação dos achados permanecem pendentes de validação técnica e humana.
 
 ## Aprovação humana
 
-- Decisão: pending
-- Responsável:
-- Data:
+- Decisão: approved
+- Responsável: proprietário
+- Data: 2026-09-14
 - Observações:
 
 ## Consolidação
 
-- Estado de revisão: pending
-- Destinos aprovados: nenhum
+- Estado de revisão: consolidated
+- Destinos aprovados: [../../checklists/dependency-remediation.md]
 - Captura substituída/corrigida: nenhum

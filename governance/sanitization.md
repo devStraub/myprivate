@@ -4,7 +4,7 @@ title: Política obrigatória de sanitização
 type: policy
 status: draft
 created: 2026-08-23
-updated: 2026-09-02
+updated: 2026-09-14
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -55,6 +55,22 @@ identificar aprendizado
 4. Verifique se alguém com contexto parcial conseguiria reconhecer empresa ou sistema.
 5. Classifique o nível de sanitização e registre apenas fontes permitidas.
 6. Apresente a proposta ao proprietário antes de incorporá-la.
+
+## Antes de compartilhar contexto com uma IA
+
+A sanitização acontece antes do envio, não apenas antes da consolidação na Toolbox:
+
+- confirme que a ferramenta e o ambiente estão autorizados para o conteúdo;
+- envie somente o trecho necessário para a pergunta atual;
+- remova ou masque segredos, dados pessoais, identificadores, URLs, caminhos e topologia;
+- prefira exemplos sintéticos a payloads, logs e configurações reais;
+- não presuma que uma política de retenção da ferramenta autoriza conteúdo corporativo;
+- quando a investigação exigir o dado original, use somente o ambiente corporativo aprovado e não o
+  transporte para a Toolbox.
+
+Mascaramento não basta quando estrutura, sequência ou combinação de detalhes ainda permite reconhecer o
+caso. A revisão humana continua necessária porque scanners automáticos não detectam toda informação
+confidencial ou reidentificável.
 
 ## Níveis de sanitização
 

@@ -4,7 +4,7 @@ title: Checklist — mudança assistida por IA
 type: checklist
 status: draft
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -23,6 +23,7 @@ visibility: private
 - [ ] Escopo, ambiguidade, impacto, diagnóstico e validação foram classificados?
 - [ ] O agente atual é adequado ao papel ou recomendou uma troca com justificativa concreta?
 - [ ] A decisão humana sobre a recomendação foi registrada?
+- [ ] O especialista técnico e o especialista de domínio aplicáveis foram carregados sem trazer conteúdo irrelevante?
 - [ ] O briefing informa problema, resultado esperado e critérios de aceite?
 - [ ] Escopo e fora de escopo estão explícitos?
 - [ ] `plan.md` existe e contém passos verificáveis?
@@ -49,6 +50,7 @@ visibility: private
 ## Revisão técnica
 
 - [ ] O diff contém somente arquivos esperados?
+- [ ] Requisitos e regras aplicáveis foram ligados a evidências concretas de implementação e teste?
 - [ ] A solução mais simples suficiente foi escolhida?
 - [ ] Um desenvolvedor familiarizado com a linguagem entende rapidamente intenção, fluxo e falhas?
 - [ ] Alguma explicação longa está compensando nomes ruins, funções extensas ou responsabilidades misturadas?

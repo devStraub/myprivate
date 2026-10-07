@@ -15,9 +15,9 @@ learning_state: applied-professionally
 eligible_as_professional_evidence: false
 capture_id: 20260824-135645-validacao-progressiva-a1
 captured_at: 2026-08-24T16:56:45Z
-review_state: pending
-reviewed_at:
-consolidated_into: []
+review_state: consolidated
+reviewed_at: 2026-09-14
+consolidated_into: [../../patterns/evidence-driven-change.md, ../../VALIDATION.md]
 agents:
   - provider: openai
     model: gpt-5.6-sol
@@ -29,10 +29,10 @@ related: [../../VALIDATION.md, ../../PRINCIPLES.md, ../../areas/ai-assisted-deve
 visibility: private
 sanitization:
   level: generalized
-  reviewed_on:
-  reviewed_by:
+  reviewed_on: 2026-09-14
+  reviewed_by: owner-supervised-consolidation
   reidentification_risk: low
-  approved: false
+  approved: true
 ---
 
 # Proposta de aprendizado: Validação progressiva antes da alteração
@@ -76,13 +76,13 @@ A IA agregou eventos locais e redigiu esta abstração. Não houve validação i
 
 ## Aprovação humana
 
-- Decisão: pending
-- Responsável:
-- Data:
+- Decisão: approved
+- Responsável: proprietário
+- Data: 2026-09-14
 - Observações:
 
 ## Consolidação
 
-- Estado de revisão: pending
-- Destinos aprovados: nenhum
+- Estado de revisão: consolidated
+- Destinos aprovados: [../../patterns/evidence-driven-change.md, ../../VALIDATION.md]
 - Captura substituída/corrigida: nenhum

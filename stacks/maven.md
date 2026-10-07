@@ -4,7 +4,7 @@ title: Maven
 type: stack-index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-14
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -22,7 +22,8 @@ visibility: private
 
 ## Knowledge · Patterns · Cases · Decisions · Sources · Checklists
 
-Nenhum item relacionado registrado.
+- [`Migração coordenada de plataforma e runtime`](../playbooks/platform-migration.md)
+- [`Remediação de dependências`](../checklists/dependency-remediation.md)
 
 ## Relações iniciais
 

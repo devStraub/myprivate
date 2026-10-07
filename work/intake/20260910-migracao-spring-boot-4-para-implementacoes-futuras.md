@@ -9,15 +9,15 @@ updated: 2026-09-10
 last_reviewed:
 domains: [java, spring, dependency-management, build, testing, security]
 technologies: [Java, Spring Boot, Spring Framework, Maven, Tomcat]
-tags: [spring-boot-4, spring-framework-7, java-21, migration, maven, mend]
+tags: [spring-boot, framework-migration, java, migration, maven, security-gate]
 origin: [professional-experience, ai-assisted-analysis]
 learning_state: not-studied
 eligible_as_professional_evidence: false
 capture_id: 20260910-migracao-spring-boot-4-p1
 captured_at: 2026-09-10T17:13:00Z
-review_state: pending
-reviewed_at:
-consolidated_into: []
+review_state: consolidated
+reviewed_at: 2026-09-14
+consolidated_into: [../../playbooks/platform-migration.md, ../../checklists/dependency-remediation.md]
 agents:
   - provider: openai
     model: gpt-5.6-sol
@@ -29,10 +29,10 @@ related: [20260902-semantica-atualizacao-parcial.md]
 visibility: private
 sanitization:
   level: generalized
-  reviewed_on:
-  reviewed_by:
+  reviewed_on: 2026-09-14
+  reviewed_by: owner-supervised-consolidation
   reidentification_risk: low
-  approved: false
+  approved: true
 ---
 
 # Aprendizado: migracao para Spring Boot 4
@@ -56,7 +56,7 @@ cenarios funcionais.
 2. Definir a combinacao alvo de Spring Boot, Spring Framework, Java e container Servlet.
 3. Confirmar que as versoes alvo existem nos repositorios corporativos antes de editar o POM.
 4. Mapear dependencias diretamente declaradas e transitivas, incluindo starters, clientes HTTP,
-   Kafka, MongoDB, observabilidade e bibliotecas internas.
+  mensageria, persistencia, observabilidade e bibliotecas internas.
 5. Definir criterios de aceite para compilacao, testes, startup, endpoints, contratos e pipeline.
 
 ## Regras de alinhamento de dependencias
@@ -68,14 +68,14 @@ cenarios funcionais.
   rastrear a dependencia que introduziu o artefato.
 - Usar o starter correspondente ao Boot alvo; por exemplo, uma mudanca de suporte AOP pode
   exigir a troca do starter, e nao somente a alteracao de uma versao.
-- Atualizar o modulo do Resilience4j para a linha compatível com o Boot utilizado.
+- Atualizar bibliotecas de resiliencia para a linha compatível com a plataforma utilizada.
 - Evitar declarar simultaneamente versoes conflitantes da mesma familia sem necessidade.
 
 ## Pontos de codigo e configuracao
 
 - Procurar imports e APIs `javax.*` remanescentes quando a plataforma exigir `jakarta.*`.
 - Revisar configuracoes removidas ou alteradas, como propriedades legadas de MVC e binding.
-- Verificar Spring MVC, Jackson, validacao, Feign, Kafka, MongoDB, DB2, observabilidade e
+- Verificar camada web, serializacao, validacao, clientes HTTP, mensageria, persistencia, observabilidade e
   autenticacao separadamente.
 - Revisar contratos de serializacao e desserializacao, principalmente DTOs, erros e objetos
   aninhados.
@@ -95,19 +95,19 @@ Executar, nesta ordem, sempre que o ambiente permitir:
 5. Smoke test de startup, health checks, OpenAPI, autenticacao e endpoints principais.
 6. Testes com dependencias externas disponiveis, distinguindo falhas do ambiente de falhas da
    aplicacao.
-7. Execucao do Mend e revisao dos achados contra a arvore efetivamente empacotada.
+7. Execucao do gate de composicao de software e revisao dos achados contra a arvore efetivamente empacotada.
 
 O JDK que compila deve ser o mesmo, ou compativel, com o JDK usado para executar os testes.
 Uma falha de class version pode mascarar o resultado real da suite e nao deve ser diagnosticada
 como regressao do Spring sem confirmar o ambiente.
 
-## Como tratar achados Mend
+## Como tratar achados de composicao de software
 
 - Identificar se a vulnerabilidade e direta ou transitiva.
 - Confirmar o artefato e a versao na arvore Maven e no pacote final.
 - Preferir upgrade da dependencia de origem; usar override explicito somente quando houver
   compatibilidade comprovada e o parent ainda nao fornecer a correcao.
-- Reexecutar a arvore, testes e Mend apos cada ajuste relevante.
+- Reexecutar a arvore, testes e o gate apos cada ajuste relevante.
 - Registrar quando o finding depender de uma funcionalidade nao utilizada, sem considerar isso
   uma substituicao automatica para a atualizacao.
 - Nao copiar tokens ou identificadores do relatorio para documentacao de aprendizado.
@@ -121,13 +121,13 @@ como regressao do Spring sem confirmar o ambiente.
   banco ou servico externo.
 - Falha funcional: confirmar se a requisicao chegou ao endpoint antes de atribuir a causa ao
   framework.
-- Falha Mend: confirmar a dependencia realmente empacotada antes de editar o POM.
+- Falha no gate: confirmar a dependencia realmente empacotada antes de editar o build.
 
 ## Evidencia e limites
 
 Observado no trabalho de referencia: alinhamento de parent, BOMs, starters, Java e Tomcat foi
 necessario para a migracao; a remocao de overrides antigos reduziu a mistura de plataformas; e
-achados Mend posteriores puderam ser tratados identificando uma dependencia transitiva e
+achados posteriores do gate puderam ser tratados identificando uma dependencia transitiva e
 sobrescrevendo-a de forma explicita.
 
 Inferido como pratica geral: manter uma matriz de compatibilidade e executar gates por camada
@@ -147,7 +147,7 @@ das versoes no repositorio privado e impacto de todos os modos opcionais do Spri
 - [ ] Dependencias internas e integrações testadas.
 - [ ] Startup e smoke tests executados com ambiente disponivel.
 - [ ] Arvore Maven e artefato final revisados.
-- [ ] Mend executado novamente sem dados sensiveis nos registros.
+- [ ] Gate executado novamente sem dados sensiveis nos registros.
 - [ ] Backups criados antes de editar arquivos existentes.
 
 ## Revisao de sanitizacao
@@ -159,7 +159,12 @@ das versoes no repositorio privado e impacto de todos os modos opcionais do Spri
 
 ## Aprovacao humana
 
-- Decisao: pending
-- Responsavel:
-- Data:
-- Observacoes:
+- Decisao: approved
+- Responsavel: proprietário
+- Data: 2026-09-14
+- Observacoes: conteúdo generalizado consolidado; detalhes específicos não foram promovidos.
+
+## Consolidação
+
+- Estado de revisão: consolidated
+- Destinos aprovados: [../../playbooks/platform-migration.md, ../../checklists/dependency-remediation.md]

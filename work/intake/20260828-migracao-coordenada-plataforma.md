@@ -15,9 +15,9 @@ learning_state: applied-professionally
 eligible_as_professional_evidence: false
 capture_id: 20260828-145124-migracao-plataforma-a1
 captured_at: 2026-08-28T17:51:24Z
-review_state: pending
-reviewed_at:
-consolidated_into: []
+review_state: consolidated
+reviewed_at: 2026-09-14
+consolidated_into: [../../playbooks/platform-migration.md]
 agents:
   - provider: openai
     model: gpt-5.6-luna
@@ -29,10 +29,10 @@ related: [../../areas/architecture.md, ../../areas/testing.md, ../../stacks/java
 visibility: private
 sanitization:
   level: generalized
-  reviewed_on:
-  reviewed_by:
+  reviewed_on: 2026-09-14
+  reviewed_by: owner-supervised-consolidation
   reidentification_risk: low
-  approved: false
+  approved: true
 ---
 
 # Proposta de aprendizado: Migração coordenada de plataforma e runtime
@@ -97,13 +97,13 @@ real de dependências e testes executados pelo responsável humano.
 
 ## Aprovação humana
 
-- Decisão: pending
-- Responsável:
-- Data:
+- Decisão: approved
+- Responsável: proprietário
+- Data: 2026-09-14
 - Observações:
 
 ## Consolidação
 
-- Estado de revisão: pending
-- Destinos aprovados: nenhum
+- Estado de revisão: consolidated
+- Destinos aprovados: [../../playbooks/platform-migration.md]
 - Captura substituída/corrigida: nenhum

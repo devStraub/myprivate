@@ -15,9 +15,9 @@ learning_state: not-studied
 eligible_as_professional_evidence: false
 capture_id: 20260902-204508-atualizacao-parcial-p1
 captured_at: 2026-09-02T20:45:08Z
-review_state: pending
-reviewed_at:
-consolidated_into: []
+review_state: consolidated
+reviewed_at: 2026-09-14
+consolidated_into: [../../patterns/partial-update-intent.md, ../../checklists/new-api.md]
 agents:
   - provider: openai
     model: gpt-5.6-sol
@@ -29,10 +29,10 @@ related: [20260824-validacao-contratos-api.md, 20260902-telemetria-falha-integra
 visibility: private
 sanitization:
   level: generalized
-  reviewed_on:
-  reviewed_by:
+  reviewed_on: 2026-09-14
+  reviewed_by: owner-supervised-consolidation
   reidentification_risk: low
-  approved: false
+  approved: true
 ---
 
 # Proposta de aprendizado: Preservação de intenção em atualizações parciais
@@ -114,13 +114,13 @@ tratamento genérico conveniente não deve substituir contratos explícitos de e
 
 ## Aprovação humana
 
-- Decisão: pending
-- Responsável:
-- Data:
+- Decisão: approved
+- Responsável: proprietário
+- Data: 2026-09-14
 - Observações:
 
 ## Consolidação
 
-- Estado de revisão: pending
-- Destinos aprovados: nenhum
+- Estado de revisão: consolidated
+- Destinos aprovados: [../../patterns/partial-update-intent.md, ../../checklists/new-api.md]
 - Captura substituída/corrigida: nenhum

@@ -4,7 +4,7 @@ title: Checklists
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-09-02
+updated: 2026-09-14
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -24,5 +24,6 @@ Lembretes enxutos, adaptáveis ao risco. Marcar itens não substitui evidência 
 - [`production-change.md`](production-change.md)
 - [`new-api.md`](new-api.md)
 - [`ai-assisted-change.md`](ai-assisted-change.md): briefing, plano, backup, telemetria, revisão e draft sanitizado.
+- [`dependency-remediation.md`](dependency-remediation.md): triagem, origem, correção e validação de dependências vulneráveis.
 
 Melhorias surgidas no trabalho devem ser propostas, relacionadas à evidência sanitizada e aprovadas antes de incorporação.

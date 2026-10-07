@@ -15,9 +15,9 @@ learning_state: applied-professionally
 eligible_as_professional_evidence: false
 capture_id: 20260824-135645-sanitizacao-ia-f6
 captured_at: 2026-08-24T16:56:45Z
-review_state: pending
-reviewed_at:
-consolidated_into: []
+review_state: consolidated
+reviewed_at: 2026-09-14
+consolidated_into: [../../governance/sanitization.md]
 agents:
   - provider: openai
     model: gpt-5.6-sol
@@ -29,10 +29,10 @@ related: [../../governance/sanitization.md, ../../areas/security.md, ../../areas
 visibility: private
 sanitization:
   level: generalized
-  reviewed_on:
-  reviewed_by:
+  reviewed_on: 2026-09-14
+  reviewed_by: owner-supervised-consolidation
   reidentification_risk: low
-  approved: false
+  approved: true
 ---
 
 # Proposta de aprendizado: Sanitização antes do compartilhamento com IA
@@ -76,13 +76,13 @@ A IA detectou categorias de risco por inspeção automatizada e agregada. A dete
 
 ## Aprovação humana
 
-- Decisão: pending
-- Responsável:
-- Data:
+- Decisão: approved
+- Responsável: proprietário
+- Data: 2026-09-14
 - Observações:
 
 ## Consolidação
 
-- Estado de revisão: pending
-- Destinos aprovados: nenhum
+- Estado de revisão: consolidated
+- Destinos aprovados: [../../governance/sanitization.md]
 - Captura substituída/corrigida: nenhum

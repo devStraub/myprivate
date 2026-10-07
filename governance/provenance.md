@@ -99,6 +99,19 @@ agents:
 
 Use `unknown` em vez de adivinhar provider ou modelo. `role` pode ser `research`, `analysis`, `drafting`, `review`, `validation` ou `consolidation`. Validação independente deve apontar para evidência, não para concordância de outro LLM.
 
+## Agentes especialistas como evidência
+
+Um agente criado na Toolbox é um artefato versionado, não uma competência automática. Registre sua
+criação no catálogo e separe:
+
+- `agent_state`: capacidade operacional do agente (`draft`, `active`, `review-required`, `suspended` ou `retired`);
+- `learning_state`: relação comprovada do proprietário com o domínio;
+- usos aprovados: aplicações observadas e delimitadas;
+- `eligible_as_professional_evidence`: somente `true` após uso profissional sanitizado, evidência e aprovação.
+
+A evolução ocorre conforme [`agent-lifecycle.md`](agent-lifecycle.md). Número de agentes, tamanho da base
+ou execução de prompts nunca altera proficiência por contagem.
+
 ## Fontes
 
 `sources` contém IDs registrados em [`../sources/`](../sources/README.md), não URLs soltas quando a fonte sustenta afirmações importantes. Para cada conclusão, explique no corpo o que a fonte sustenta, seus limites e se houve experimento ou convergência independente.

@@ -15,9 +15,9 @@ learning_state: applied-professionally
 eligible_as_professional_evidence: false
 capture_id: 20260902-165700-telemetria-integracao-c4
 captured_at: 2026-09-02T16:57:00Z
-review_state: pending
-reviewed_at:
-consolidated_into: []
+review_state: consolidated
+reviewed_at: 2026-09-14
+consolidated_into: [../../playbooks/distributed-flow-diagnosis.md]
 agents:
   - provider: openai
     model: gpt-5.6-luna
@@ -29,10 +29,10 @@ related: [20260824-diagnostico-orientado-evidencias.md, 20260824-validacao-contr
 visibility: private
 sanitization:
   level: generalized
-  reviewed_on:
-  reviewed_by:
+  reviewed_on: 2026-09-14
+  reviewed_by: owner-supervised-consolidation
   reidentification_risk: low
-  approved: false
+  approved: true
 ---
 
 # Proposta de aprendizado: Telemetria mínima para falhas em fluxo distribuído de recuperação
@@ -69,10 +69,9 @@ HTTP, tentativas, duração, resultado da etapa e um identificador de correlaç�
 
 ## Evidência permitida
 
-Uma execução de integração apresentou seis cenários em um fluxo de edição: um passou e
-cinco falharam na preparação, antes da operação de edição. As falhas de preparação foram
-rejeições HTTP 400, enquanto uma execução anterior havia apresentado indisponibilidade
-HTTP 503; uma ocorrência distinta apresentou erro HTTP 500 em outra preparação.
+Execuções de integração apresentaram resultados diferentes entre a preparação e a operação
+principal. Os sinais permitiram distinguir rejeição de contrato, indisponibilidade e erro de
+dependência antes de atribuir a falha ao comportamento final sob teste.
 
 Esses dados sustentam a separação entre falha de pré-condição, indisponibilidade e erro de
 dependência, mas não provam a causa raiz. Não foram retidos nomes de organizações,
@@ -112,18 +111,19 @@ material é uma proposta de telemetria, não um diagnóstico confirmado.
   credenciais, tokens, payloads, identificadores, logs brutos, datas operacionais e
   detalhes de topologia.
 - Singularidade residual: baixa; o modelo se aplica a integrações distribuídas em geral.
+- Números, cronologia e combinações singulares removidos: sim.
 - Nível proposto: generalized.
 - Fontes permitidas: nenhuma.
 
 ## Aprovação humana
 
-- Decisão: pending
-- Responsável:
-- Data:
+- Decisão: approved
+- Responsável: proprietário
+- Data: 2026-09-14
 - Observações:
 
 ## Consolidação
 
-- Estado de revisão: pending
-- Destinos aprovados: nenhum
+- Estado de revisão: consolidated
+- Destinos aprovados: [../../playbooks/distributed-flow-diagnosis.md]
 - Captura substituída/corrigida: nenhum

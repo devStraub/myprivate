@@ -4,7 +4,7 @@ title: Developer Toolbox
 type: index
 status: draft
 created: 2026-08-23
-updated: 2026-08-26
+updated: 2026-10-06
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -31,6 +31,7 @@ Base pessoal, portátil e versionada para transformar estudo e experiência sani
 
 | Caminho | Pergunta principal |
 | --- | --- |
+| [`agents/`](agents/README.md) | Que especialista reutilizável apoia esta tarefa? |
 | [`knowledge/`](knowledge/README.md) | Como isso funciona? |
 | [`patterns/`](patterns/README.md) | Reconheço este tipo de situação? |
 | [`cases/`](cases/README.md) | O que aprendemos em uma experiência sanitizada? |
@@ -51,6 +52,11 @@ Base pessoal, portátil e versionada para transformar estudo e experiência sani
 ## Como navegar
 
 Comece por este mapa ou pelo índice da tecnologia/área relevante. Consulte somente o necessário. [`AGENTS.md`](AGENTS.md) orienta agentes; [`PRINCIPLES.md`](PRINCIPLES.md) e [`VALIDATION.md`](VALIDATION.md) orientam decisões e solução de problemas.
+
+Quando existir um agente especialista em [`agents/`](agents/README.md), ele conecta fontes, regras,
+procedimentos e evidências para uma atividade delimitada. Criação e uso desses agentes alimentam um
+histórico verificável, mas somente revisão e aplicação comprovada podem sustentar aprendizagem ou
+experiência profissional.
 
 ## Uso no estudo
 

@@ -15,9 +15,9 @@ learning_state: applied-professionally
 eligible_as_professional_evidence: false
 capture_id: 20260828-145124-validacao-esteira-b2
 captured_at: 2026-08-28T17:51:24Z
-review_state: pending
-reviewed_at:
-consolidated_into: []
+review_state: consolidated
+reviewed_at: 2026-09-14
+consolidated_into: [../../patterns/evidence-driven-change.md, ../../checklists/dependency-remediation.md]
 agents:
   - provider: openai
     model: gpt-5.6-luna
@@ -29,10 +29,10 @@ related: [../../areas/security.md, ../../areas/testing.md, ../../stacks/ci-cd.md
 visibility: private
 sanitization:
   level: generalized
-  reviewed_on:
-  reviewed_by:
+  reviewed_on: 2026-09-14
+  reviewed_by: owner-supervised-consolidation
   reidentification_risk: low
-  approved: false
+  approved: true
 ---
 
 # Proposta de aprendizado: Validação de segurança dependente da esteira
@@ -94,13 +94,13 @@ Essa limitação deve permanecer explícita em qualquer consolidação.
 
 ## Aprovação humana
 
-- Decisão: pending
-- Responsável:
-- Data:
+- Decisão: approved
+- Responsável: proprietário
+- Data: 2026-09-14
 - Observações:
 
 ## Consolidação
 
-- Estado de revisão: pending
-- Destinos aprovados: nenhum
+- Estado de revisão: consolidated
+- Destinos aprovados: [../../patterns/evidence-driven-change.md, ../../checklists/dependency-remediation.md]
 - Captura substituída/corrigida: nenhum

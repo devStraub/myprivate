@@ -4,7 +4,7 @@ title: Roteamento de agentes por função, complexidade e risco
 type: workflow
 status: draft
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-10-06
 origin: [professional-preference, ai-assisted-analysis]
 agents:
   - provider: openai
@@ -12,7 +12,7 @@ agents:
     role: structure
     date: 2026-09-02
 sources: []
-related: [ai-assisted-development.md, copilot-start-prompt.md, ../templates/ai-work-plan.md]
+related: [ai-assisted-development.md, copilot-start-prompt.md, ../templates/ai-work-plan.md, ../agents/software-development-specialist/SKILL.md]
 visibility: private
 ---
 
@@ -79,3 +79,10 @@ O executor não reinterpreta silenciosamente o plano. Diante de descoberta mater
 Uma demanda trivial pode permanecer com um único agente. Uma demanda de risco elevado deve considerar
 revisão final por agente de maior capacidade mesmo quando a execução tiver sido feita por outro.
 
+## Especialistas e papéis
+
+Especialista e papel não são sinônimos. O
+[`especialista em desenvolvimento`](../agents/software-development-specialist/SKILL.md) organiza fatos,
+evidências e contexto técnico; um modelo atuando como planner, executor, validator ou reviewer realiza a
+função atual. Especialistas de domínio fornecem regras e vocabulário. A mesma demanda pode combinar essas
+camadas sem exigir que um único agente acumule toda responsabilidade.

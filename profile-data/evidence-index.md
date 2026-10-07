@@ -23,6 +23,8 @@ Nenhuma evidência de competência foi registrada na v0.1.
 | Evidência | Tipo | Área/stack | Origem | Status | Confiança | Data | Limitações |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 
-Tipos podem incluir sessão de estudo, experimento, case sanitizado, decisão, knowledge validado e fonte. Registre lacunas, contradições e alcance; `validated` continua sujeito a revisão.
+Tipos podem incluir sessão de estudo, experimento, case sanitizado, decisão, knowledge validado, fonte,
+criação de agente e uso aprovado de agente. Criação comprova o artefato; não comprova domínio. Registre
+lacunas, contradições e alcance; `validated` continua sujeito a revisão.
 
 Scouting e backlog podem ser contabilizados como cobertura de inventário, nunca como evidência de competência ou experiência. Mantenha-os fora deste índice até produzirem evidência por estudo, aplicação ou case aprovado.

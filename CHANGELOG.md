@@ -35,5 +35,12 @@ Alterações relevantes da estrutura e das políticas. A evolução detalhada de
 - Princípio pessoal de simplicidade explícita, inspirado pelo Zen do Python e aplicado transversalmente a agentes e decisões técnicas.
 - Facilidade de explicação adotada como heurística de design, legibilidade e revisão de código.
 - Módulo 02 concluído conceitualmente e consolidado como referência prática de algoritmos e estruturas de dados.
+- Aprendizados profissionais consolidados em patterns e playbooks de evidências, contratos parciais, migração de plataforma, dependências e diagnóstico distribuído.
+- Catálogo e ciclo de vida de agentes especialistas, com histórico de aprendizagem e experiência condicionado a evidência e aprovação humana.
+- Agente inicial de Pix, DICT e MED com fontes oficiais do Bacen, catálogo rastreável de regras, histórico temporal, atualização periódica e auditoria de lacunas.
+- Agente especialista em desenvolvimento para análise de projeto, validação de implementação, colaboração com especialistas de domínio e preparação de contexto para agentes do Copilot.
+- Atualização da base DICT/MED definida como rotina manual, executada quando solicitada pelo proprietário, sem agendamento automático.
+- Agente Product Owner técnico para descoberta progressiva de serviços, manutenção do estado funcional e cruzamento entre mudanças regulatórias, capacidades e evidências técnicas.
+- Separação entre Toolbox pessoal, base corporativa persistente do projeto e artefatos temporários de `.ai-work/`.
 
 > Esta entrada permanece não publicada e em `draft` até revisão humana e commit aprovado.

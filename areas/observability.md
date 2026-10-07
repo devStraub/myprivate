@@ -4,7 +4,7 @@ title: Observability
 type: area-index
 status: draft
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-14
 origin: [ai-assisted-analysis]
 agents:
   - provider: openai
@@ -20,7 +20,8 @@ visibility: private
 
 ## Knowledge · Patterns · Cases · Decisions · Sources
 
-Nenhum item relacionado registrado.
+- [`Diagnóstico de falhas em fluxos distribuídos`](../playbooks/distributed-flow-diagnosis.md)
+- [`Mudança orientada por evidências`](../patterns/evidence-driven-change.md)
 
 ## Rotas iniciais
 
